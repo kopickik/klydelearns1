@@ -1,9 +1,6 @@
 'use strict';
 
-function doIt(time) {
-    return setTimeout(function(words) {
-        console.log(words);
-    }, time);
-}
-
-doIt('TIMED OUT!', 300);
+// Set a timeout of 300ms
+setTimeout(function() {
+    console.log('TIMED OUT!')
+}, 300);
