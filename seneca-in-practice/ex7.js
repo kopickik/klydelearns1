@@ -2,7 +2,7 @@
 
 module.exports = function math(options) {
     this.add({role:'math',cmd:'sum'}, function (args, done) {
-        var result = args.left + args.right;
+        var result = Number(args.left) + Number(args.right);
         done(null, {answer: result})
     })
 
@@ -16,16 +16,16 @@ module.exports = function math(options) {
         done(null, {answer: result})
     })
 
-    this.add({role:'math',cmd:'sum'}, function (msg, respond) {
-        if (!isFinite(msg.left) || !isFinite(msg.right)) {
-            return respond(new Error('Expected left and right to be numbers.'))
+    this.add({role:'math',cmd:'sum'}, function (args, done) {
+        if (!isFinite(args.left) || !isFinite(args.right)) {
+            return done(new Error('Expected left and right to be numbers.'))
         }
-        this.prior(msg, function(err, result) {
+        this.prior(args, function(err, result) {
             if (err) {
-                return respond(err)
+                return done(err)
             }
-            result.info = `${msg.left} + ${msg.right}`
-            respond(null, result)
+            result.info = `${args.left} + ${args.right}`
+            done(null, result)
         })
     })
 
