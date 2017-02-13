@@ -6,5 +6,10 @@ module.exports = function math(options) {
         done(null, {answer: result})
     })
 
+    this.add({role:'math', cmd:'product'}, function (args, done) {
+        var result = args.left * args.right;
+        done(null, {answer: result})
+    })
+
     return 'operations'
 }
