@@ -7,5 +7,3 @@ var promise = new Promise(function (fulfill, reject) {
 });
 
 promise.then(console.log)
-
-// Your solution here
