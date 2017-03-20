@@ -8,7 +8,7 @@ function randomBytes (n) {
 }
 
 message = 'A fatal exception ' + randomBytes(1) + ' has occurred at ' +
-          randomBytes(2) + ':' + randomBytes(4) + '.\nYour system will be ' +
+          randomBytes(2) + ':' + randomBytes(4) + '.\n' + 'Your system will be ' +
           'terminated in 3 seconds.';
 
 promise = Promise.reject(new Error(message));
