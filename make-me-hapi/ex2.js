@@ -10,10 +10,14 @@ server.connection({
 })
 
 server.route({
-  path: '/',
+  path: '/{name}',
   method: 'GET',
-  handler: (request, reply) => { reply('Hello hapi.')}
+  handler: myFunction
 })
+
+function myFunction (request, reply) {
+  reply(`Hello ${request.params.name}`)
+}
 
 server.start(function (err) {
   if (err) { throw err }

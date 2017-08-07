@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/kopickik/klydelearns1#readme",
   "devDependencies": {
+    "inert": "^4.2.1",
     "react": "^15.6.1",
     "react-addons-test-utils": "^15.6.0",
     "react-dom": "^15.6.1"
