@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/multicast","loc":{"line":3,"column":26}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/multicast\");e.Observable.prototype.multicast=r.multicast;"},"hash":"18688271afd9472e2556b4fa7a991129"}

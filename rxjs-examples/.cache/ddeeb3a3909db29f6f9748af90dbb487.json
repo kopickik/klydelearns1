@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/ignoreElements","loc":{"line":3,"column":31}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/ignoreElements\");e.Observable.prototype.ignoreElements=r.ignoreElements;"},"hash":"9a1477dd264d6e557adafe63f416b124"}

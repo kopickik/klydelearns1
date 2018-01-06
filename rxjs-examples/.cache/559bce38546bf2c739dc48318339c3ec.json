@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../../Observable","loc":{"line":2,"column":27}},{"name":"../../../observable/dom/ajax","loc":{"line":3,"column":21}}],"generated":{"js":"\"use strict\";var e=require(\"../../../Observable\"),a=require(\"../../../observable/dom/ajax\");e.Observable.ajax=a.ajax;"},"hash":"a2aa05dc77d81696558e8669c74e55d1"}

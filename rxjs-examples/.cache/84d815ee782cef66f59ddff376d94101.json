@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/find","loc":{"line":2,"column":21}}],"generated":{"js":"\"use strict\";var r=require(\"../operators/find\");function i(i,t){return r.find(i,t)(this)}exports.find=i;"},"hash":"e42e2b5468e16599fa1a75e9a6076aee"}

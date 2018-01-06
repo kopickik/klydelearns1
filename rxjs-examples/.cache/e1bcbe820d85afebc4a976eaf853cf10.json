@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/windowWhen","loc":{"line":3,"column":27}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/windowWhen\");e.Observable.prototype.windowWhen=r.windowWhen;"},"hash":"c77aea20833fd240bd412ee6365ecbd0"}

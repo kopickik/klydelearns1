@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./NeverObservable","loc":{"line":2,"column":32}}],"generated":{"js":"\"use strict\";var e=require(\"./NeverObservable\");exports.never=e.NeverObservable.create;"},"hash":"49fd03392772464fda377f887667c7ca"}

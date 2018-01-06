@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/windowToggle","loc":{"line":2,"column":29}}],"generated":{"js":"\"use strict\";var o=require(\"../operators/windowToggle\");function e(e,r){return o.windowToggle(e,r)(this)}exports.windowToggle=e;"},"hash":"03374ab4d67a2a6733001e39bd78bf91"}

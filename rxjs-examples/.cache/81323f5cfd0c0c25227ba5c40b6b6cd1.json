@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/dematerialize","loc":{"line":3,"column":30}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/dematerialize\");e.Observable.prototype.dematerialize=r.dematerialize;"},"hash":"467b224a709c9adc1fba82d985f260b9"}

@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/mapTo","loc":{"line":2,"column":22}}],"generated":{"js":"\"use strict\";var r=require(\"../operators/mapTo\");function o(o){return r.mapTo(o)(this)}exports.mapTo=o;"},"hash":"fdd301bafc637736913559a3bcb4d213"}

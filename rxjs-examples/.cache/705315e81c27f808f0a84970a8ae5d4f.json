@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/buffer","loc":{"line":2,"column":23}}],"generated":{"js":"\"use strict\";var r=require(\"../operators/buffer\");function e(e){return r.buffer(e)(this)}exports.buffer=e;"},"hash":"f613fee81502952af0b89833733f46de"}

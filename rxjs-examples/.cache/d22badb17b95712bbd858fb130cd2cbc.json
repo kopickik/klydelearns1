@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/audit","loc":{"line":2,"column":22}}],"generated":{"js":"\"use strict\";var t=require(\"../operators/audit\");function r(r){return t.audit(r)(this)}exports.audit=r;"},"hash":"8674af99296eb6bfbf4f6357b92b44e4"}

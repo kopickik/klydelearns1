@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./IntervalObservable","loc":{"line":2,"column":35}}],"generated":{"js":"\"use strict\";var e=require(\"./IntervalObservable\");exports.interval=e.IntervalObservable.create;"},"hash":"212f6d5a3f595f4110598d8ff71a1e44"}

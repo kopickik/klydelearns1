@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./WebSocketSubject","loc":{"line":2,"column":33}}],"generated":{"js":"\"use strict\";var e=require(\"./WebSocketSubject\");exports.webSocket=e.WebSocketSubject.create;"},"hash":"18994b3492db49383e032255330fbb25"}

@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/delay","loc":{"line":3,"column":22}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/delay\");e.Observable.prototype.delay=r.delay;"},"hash":"3c76b4e94b9e779bec04dc2ffdee9591"}

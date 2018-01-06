@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./BoundNodeCallbackObservable","loc":{"line":2,"column":44}}],"generated":{"js":"\"use strict\";var e=require(\"./BoundNodeCallbackObservable\");exports.bindNodeCallback=e.BoundNodeCallbackObservable.create;"},"hash":"7f6709b3887873f535f2b428ce0c94bd"}

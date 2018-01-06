@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/takeLast","loc":{"line":2,"column":25}}],"generated":{"js":"\"use strict\";var t=require(\"../operators/takeLast\");function e(e){return t.takeLast(e)(this)}exports.takeLast=e;"},"hash":"166fc14ec4ca2aeda6fcdae7fb253508"}

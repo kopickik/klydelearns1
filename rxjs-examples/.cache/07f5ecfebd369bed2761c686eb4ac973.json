@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/share","loc":{"line":2,"column":22}}],"generated":{"js":"\"use strict\";var r=require(\"../operators/share\");function e(){return r.share()(this)}exports.share=e;"},"hash":"bc630fb6788acacb185f5c7dffd92d4b"}

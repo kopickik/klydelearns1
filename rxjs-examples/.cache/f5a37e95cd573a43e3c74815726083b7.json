@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/publish","loc":{"line":3,"column":24}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/publish\");e.Observable.prototype.publish=r.publish;"},"hash":"7a6b7803c1181dee8b5af388acdd76a0"}

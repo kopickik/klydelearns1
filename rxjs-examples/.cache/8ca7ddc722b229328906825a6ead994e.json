@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/reduce","loc":{"line":3,"column":23}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/reduce\");e.Observable.prototype.reduce=r.reduce;"},"hash":"d6028e503b2b0efa620e39c6570627a6"}

@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../util/not","loc":{"line":2,"column":20}},{"name":"./filter","loc":{"line":3,"column":23}}],"generated":{"js":"\"use strict\";var r=require(\"../util/not\"),t=require(\"./filter\");function e(e,i){return function(n){return[t.filter(e,i)(n),t.filter(r.not(e,i))(n)]}}exports.partition=e;"},"hash":"d12339736ccbc19a3a9e95eef793fabe"}

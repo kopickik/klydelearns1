@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/switchMapTo","loc":{"line":2,"column":28}}],"generated":{"js":"\"use strict\";var t=require(\"../operators/switchMapTo\");function r(r,s){return t.switchMapTo(r,s)(this)}exports.switchMapTo=r;"},"hash":"f84dcc7e61f9bdc6730e457c473e11c7"}

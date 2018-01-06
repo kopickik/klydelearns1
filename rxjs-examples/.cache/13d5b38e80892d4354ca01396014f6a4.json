@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/isEmpty","loc":{"line":2,"column":24}}],"generated":{"js":"\"use strict\";var t=require(\"../operators/isEmpty\");function r(){return t.isEmpty()(this)}exports.isEmpty=r;"},"hash":"7ace196e2b91689a6ec29313e79eb3e6"}

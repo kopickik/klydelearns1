@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/multicast","loc":{"line":2,"column":26}}],"generated":{"js":"\"use strict\";var t=require(\"../operators/multicast\");function r(r,s){return t.multicast(r,s)(this)}exports.multicast=r;"},"hash":"39a5f7526ed4d4f6097e2acfffb1ac2c"}

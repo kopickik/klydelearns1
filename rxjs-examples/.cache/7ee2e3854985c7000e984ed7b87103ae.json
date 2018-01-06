@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./concatMap","loc":{"line":2,"column":26}}],"generated":{"js":"\"use strict\";var t=require(\"./concatMap\");function c(c,n){return t.concatMap(function(){return c},n)}exports.concatMapTo=c;"},"hash":"99247d0424501308fcc21b8977236174"}

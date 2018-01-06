@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/withLatestFrom","loc":{"line":3,"column":31}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/withLatestFrom\");e.Observable.prototype.withLatestFrom=r.withLatestFrom;"},"hash":"74a6a9804bcae8dfe5f1a5906e898acb"}

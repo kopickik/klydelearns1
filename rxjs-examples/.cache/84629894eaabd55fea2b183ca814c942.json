@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../scheduler/async","loc":{"line":2,"column":22}},{"name":"../operators/timestamp","loc":{"line":3,"column":26}}],"generated":{"js":"\"use strict\";var e=require(\"../scheduler/async\"),t=require(\"../operators/timestamp\");function r(r){return void 0===r&&(r=e.async),t.timestamp(r)(this)}exports.timestamp=r;"},"hash":"1f0cae3c3bdda3ce2fe9bc1d4876816a"}

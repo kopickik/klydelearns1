@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/materialize","loc":{"line":2,"column":28}}],"generated":{"js":"\"use strict\";var e=require(\"../operators/materialize\");function r(){return e.materialize()(this)}exports.materialize=r;"},"hash":"3cf110e2fef00d4bbca69efe97a4b22c"}

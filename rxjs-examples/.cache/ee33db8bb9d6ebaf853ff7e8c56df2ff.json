@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/windowCount","loc":{"line":3,"column":28}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/windowCount\");e.Observable.prototype.windowCount=r.windowCount;"},"hash":"eaf51cc12bfb38f9bd0dd924fd7008d2"}

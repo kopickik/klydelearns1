@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"\"use strict\";var r=function(){return function(r,i){void 0===i&&(i=Number.POSITIVE_INFINITY),this.subscribedFrame=r,this.unsubscribedFrame=i}}();exports.SubscriptionLog=r;"},"hash":"dde9d7a0a548a9271be5769c84767f7f"}

@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/catch","loc":{"line":3,"column":22}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/catch\");e.Observable.prototype.catch=r._catch,e.Observable.prototype._catch=r._catch;"},"hash":"6ef12a9fb090b30acb9fd12c560ad920"}

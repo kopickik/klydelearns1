@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"rxjs/Rx","loc":{"line":1,"column":19}}],"generated":{"js":"\"use strict\";var e=require(\"rxjs/Rx\"),t=e.Observable.create(function(e){e.next(1),e.next(2),e.next(3),setTimeout(function(){e.next(4),e.complete()},1e3)});t.subscribe({next:function(e){},error:function(e){},complete:function(){}});"},"hash":"0e6e3fb98becef09031cf1740d71c5a9"}

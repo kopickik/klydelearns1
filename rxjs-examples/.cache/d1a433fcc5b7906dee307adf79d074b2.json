@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/switchAll","loc":{"line":2,"column":26}}],"generated":{"js":"\"use strict\";var t=require(\"../operators/switchAll\");function r(){return t.switchAll()(this)}exports._switch=r;"},"hash":"3fda9cc4e44ee54346be475c1fdfde71"}

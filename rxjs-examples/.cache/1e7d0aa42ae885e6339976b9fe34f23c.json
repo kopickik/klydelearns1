@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/window","loc":{"line":2,"column":23}}],"generated":{"js":"\"use strict\";var r=require(\"../operators/window\");function i(i){return r.window(i)(this)}exports.window=i;"},"hash":"663749f7e648c4cab004c5b842a6bf9b"}

@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./FromEventPatternObservable","loc":{"line":2,"column":43}}],"generated":{"js":"\"use strict\";var e=require(\"./FromEventPatternObservable\");exports.fromEventPattern=e.FromEventPatternObservable.create;"},"hash":"9dd220c6fa3c8b2be05bd71fb9f4fedb"}

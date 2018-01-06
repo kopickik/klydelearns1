@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/subscribeOn","loc":{"line":2,"column":28}}],"generated":{"js":"\"use strict\";var r=require(\"../operators/subscribeOn\");function s(s,e){return void 0===e&&(e=0),r.subscribeOn(s,e)(this)}exports.subscribeOn=s;"},"hash":"c036350a8b168c063df68e7263530d5e"}

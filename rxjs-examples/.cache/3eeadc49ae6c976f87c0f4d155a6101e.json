@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../observable/never","loc":{"line":3,"column":22}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../observable/never\");e.Observable.never=r.never;"},"hash":"06b0ac64d60298925fab3ff5ef7307c2"}

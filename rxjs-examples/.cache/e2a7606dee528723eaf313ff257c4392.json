@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../observable/bindNodeCallback","loc":{"line":3,"column":33}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),b=require(\"../../observable/bindNodeCallback\");e.Observable.bindNodeCallback=b.bindNodeCallback;"},"hash":"0903595398cda4e220ce14d32277e09c"}

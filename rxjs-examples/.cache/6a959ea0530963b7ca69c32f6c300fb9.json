@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/single","loc":{"line":2,"column":23}}],"generated":{"js":"\"use strict\";var e=require(\"../operators/single\");function r(r){return e.single(r)(this)}exports.single=r;"},"hash":"8a1585460e187ef1fd4d162f2d791e83"}

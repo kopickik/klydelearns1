@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./root","loc":{"line":2,"column":21}},{"name":"./MapPolyfill","loc":{"line":3,"column":28}}],"generated":{"js":"\"use strict\";var r=require(\"./root\"),o=require(\"./MapPolyfill\");exports.Map=r.root.Map||o.MapPolyfill;"},"hash":"98bc1266dbb8679c440bec7f8dd2ecba"}

@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/takeUntil","loc":{"line":3,"column":26}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/takeUntil\");e.Observable.prototype.takeUntil=r.takeUntil;"},"hash":"564787647ddf62e9c33964e43b869a7f"}

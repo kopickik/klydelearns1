@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/debounce","loc":{"line":3,"column":25}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/debounce\");e.Observable.prototype.debounce=r.debounce;"},"hash":"cc2101ee3e98b87912efeb42c5626a2c"}

@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/mapTo","loc":{"line":3,"column":22}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/mapTo\");e.Observable.prototype.mapTo=r.mapTo;"},"hash":"9be445c1ddda79b0e01703ba2b9e5665"}

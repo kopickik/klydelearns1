@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/count","loc":{"line":3,"column":22}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/count\");e.Observable.prototype.count=r.count;"},"hash":"cca047426393b256f92cc91418fae8d8"}

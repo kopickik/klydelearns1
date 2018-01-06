@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/sample","loc":{"line":2,"column":23}}],"generated":{"js":"\"use strict\";var e=require(\"../operators/sample\");function r(r){return e.sample(r)(this)}exports.sample=r;"},"hash":"6f12422fff6096082ac35377c6ab099f"}

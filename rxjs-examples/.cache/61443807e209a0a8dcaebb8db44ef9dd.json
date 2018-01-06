@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/ignoreElements","loc":{"line":2,"column":31}}],"generated":{"js":"\"use strict\";var e=require(\"../operators/ignoreElements\");function r(){return e.ignoreElements()(this)}exports.ignoreElements=r;"},"hash":"9ab5838d10f9f362124909868a4d7b1f"}

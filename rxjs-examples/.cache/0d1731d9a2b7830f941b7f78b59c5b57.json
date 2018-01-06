@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/toArray","loc":{"line":3,"column":24}}],"generated":{"js":"\"use strict\";var r=require(\"../../Observable\"),e=require(\"../../operator/toArray\");r.Observable.prototype.toArray=e.toArray;"},"hash":"574b3388f7f67f177f8ff69761d8983d"}

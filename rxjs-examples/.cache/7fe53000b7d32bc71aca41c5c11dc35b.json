@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/publishLast","loc":{"line":2,"column":28}}],"generated":{"js":"\"use strict\";var s=require(\"../operators/publishLast\");function t(){return s.publishLast()(this)}exports.publishLast=t;"},"hash":"8a251a6b24ca3eea91cbf940b9859701"}

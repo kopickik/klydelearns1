@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/skipLast","loc":{"line":3,"column":25}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/skipLast\");e.Observable.prototype.skipLast=r.skipLast;"},"hash":"62f8a00d6a439ecca95ae74f696eaa31"}

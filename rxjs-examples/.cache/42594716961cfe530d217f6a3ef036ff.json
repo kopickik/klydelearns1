@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/finally","loc":{"line":3,"column":24}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),l=require(\"../../operator/finally\");e.Observable.prototype.finally=l._finally,e.Observable.prototype._finally=l._finally;"},"hash":"0dae709a185744b2f755b927f10ea9c1"}

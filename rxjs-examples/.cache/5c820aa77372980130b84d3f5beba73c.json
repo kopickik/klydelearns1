@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/bufferWhen","loc":{"line":2,"column":27}}],"generated":{"js":"\"use strict\";var e=require(\"../operators/bufferWhen\");function r(r){return e.bufferWhen(r)(this)}exports.bufferWhen=r;"},"hash":"a99d6ef255d4e0c66d0ec6505eda9b39"}

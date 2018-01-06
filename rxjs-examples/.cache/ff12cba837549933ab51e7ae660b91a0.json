@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/throttle","loc":{"line":2,"column":25}}],"generated":{"js":"\"use strict\";var t=require(\"../operators/throttle\");function r(r,e){return void 0===e&&(e=t.defaultThrottleConfig),t.throttle(r,e)(this)}exports.throttle=r;"},"hash":"50b38730fc5687f2996b260f8700bc98"}

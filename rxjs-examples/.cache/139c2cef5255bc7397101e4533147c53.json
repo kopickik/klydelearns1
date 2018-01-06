@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/skipUntil","loc":{"line":3,"column":26}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/skipUntil\");e.Observable.prototype.skipUntil=r.skipUntil;"},"hash":"c89971229e6479c94a2c11890e318e2f"}

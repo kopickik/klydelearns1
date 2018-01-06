@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/skip","loc":{"line":2,"column":21}}],"generated":{"js":"\"use strict\";var r=require(\"../operators/skip\");function s(s){return r.skip(s)(this)}exports.skip=s;"},"hash":"8fa9cbc60a8072288babe5c59f255749"}

@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/skipLast","loc":{"line":2,"column":25}}],"generated":{"js":"\"use strict\";var s=require(\"../operators/skipLast\");function t(t){return s.skipLast(t)(this)}exports.skipLast=t;"},"hash":"cee206b4f12a907624d5821a312eb145"}

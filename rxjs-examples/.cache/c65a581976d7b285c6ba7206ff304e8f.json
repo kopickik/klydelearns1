@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../observable/range","loc":{"line":3,"column":22}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../observable/range\");e.Observable.range=r.range;"},"hash":"ec660ed08d49d201f8028b981524f88f"}

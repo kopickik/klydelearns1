@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../observable/of","loc":{"line":3,"column":19}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../observable/of\");e.Observable.of=r.of;"},"hash":"06fe3bd08fa07a45d3a67319299d1d84"}

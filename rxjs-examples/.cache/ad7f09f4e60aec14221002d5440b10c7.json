@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/publishReplay","loc":{"line":3,"column":30}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/publishReplay\");e.Observable.prototype.publishReplay=r.publishReplay;"},"hash":"f6d57e8a1357403bd56f6068aa5a9c9d"}

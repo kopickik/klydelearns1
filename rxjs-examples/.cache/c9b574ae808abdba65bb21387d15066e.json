@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./switchMap","loc":{"line":2,"column":26}},{"name":"../util/identity","loc":{"line":3,"column":25}}],"generated":{"js":"\"use strict\";var t=require(\"./switchMap\"),i=require(\"../util/identity\");function e(){return t.switchMap(i.identity)}exports.switchAll=e;"},"hash":"0240916e3ec6cff313d89e076e1c3952"}

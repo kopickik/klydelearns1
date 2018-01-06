@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./AjaxObservable","loc":{"line":2,"column":31}}],"generated":{"js":"\"use strict\";var e=require(\"./AjaxObservable\");exports.ajax=e.AjaxObservable.create;"},"hash":"27611d256e8772d7f76ab8f477b106b2"}

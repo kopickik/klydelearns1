@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../operators/pairwise","loc":{"line":2,"column":25}}],"generated":{"js":"\"use strict\";var r=require(\"../operators/pairwise\");function i(){return r.pairwise()(this)}exports.pairwise=i;"},"hash":"c5b2155fc5500973ade5679930716f1f"}

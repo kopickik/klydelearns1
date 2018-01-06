@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../util/isArray","loc":{"line":2,"column":24}}],"generated":{"js":"\"use strict\";var r=require(\"../util/isArray\");function i(i){return!r.isArray(i)&&i-parseFloat(i)+1>=0}exports.isNumeric=i;"},"hash":"8e35a6471154c404df87478e4b36804b"}

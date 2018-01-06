@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/max","loc":{"line":3,"column":20}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/max\");e.Observable.prototype.max=r.max;"},"hash":"fe354b43f0bf7bb7bfb97f26c9758e45"}

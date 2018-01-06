@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/publishLast","loc":{"line":3,"column":28}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/publishLast\");e.Observable.prototype.publishLast=r.publishLast;"},"hash":"7b15024a7bfcea21734a6d5b45862177"}

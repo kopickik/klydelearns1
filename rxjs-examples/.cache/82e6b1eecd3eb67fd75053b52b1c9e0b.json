@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../observable/concat","loc":{"line":3,"column":23}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../observable/concat\");e.Observable.concat=r.concat;"},"hash":"bc4b85538b0ff1ea14f33318a9c93d11"}

@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../observable/zip","loc":{"line":3,"column":20}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../observable/zip\");e.Observable.zip=r.zip;"},"hash":"5624360bbc034da8dce24cee810cbd42"}

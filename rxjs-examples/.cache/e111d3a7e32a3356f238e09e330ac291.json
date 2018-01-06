@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../BehaviorSubject","loc":{"line":2,"column":32}},{"name":"./multicast","loc":{"line":3,"column":26}}],"generated":{"js":"\"use strict\";var e=require(\"../BehaviorSubject\"),r=require(\"./multicast\");function t(t){return function(u){return r.multicast(new e.BehaviorSubject(t))(u)}}exports.publishBehavior=t;"},"hash":"113288e4274bfeffb1b7c6052372aabb"}

@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"./reduce","loc":{"line":2,"column":23}}],"generated":{"js":"\"use strict\";var r=require(\"./reduce\");function e(e){var n=\"function\"==typeof e?function(r,n){return e(r,n)>0?r:n}:function(r,e){return r>e?r:e};return r.reduce(n)}exports.max=e;"},"hash":"b97595b4313d4e7b7b3af999f5db0159"}

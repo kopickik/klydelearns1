@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/bufferWhen","loc":{"line":3,"column":27}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/bufferWhen\");e.Observable.prototype.bufferWhen=r.bufferWhen;"},"hash":"8875ae048f1db10a9889c0f1f6399e53"}
