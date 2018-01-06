@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/window","loc":{"line":3,"column":23}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/window\");e.Observable.prototype.window=r.window;"},"hash":"773ff1a6d7fe3606a0e4814cfe2a74ae"}

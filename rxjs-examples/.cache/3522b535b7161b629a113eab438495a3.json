@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../AsyncSubject","loc":{"line":2,"column":29}},{"name":"./multicast","loc":{"line":3,"column":26}}],"generated":{"js":"\"use strict\";var t=require(\"../AsyncSubject\"),u=require(\"./multicast\");function e(){return function(e){return u.multicast(new t.AsyncSubject)(e)}}exports.publishLast=e;"},"hash":"0cb19ce44c08df7367566dc979773cd7"}

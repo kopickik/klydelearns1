@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../operators/map","loc":{"line":2,"column":20}}],"generated":{"js":"\"use strict\";var r=require(\"../operators/map\");function t(t,e){return r.map(t,e)(this)}exports.map=t;"},"hash":"dddaf7dda84c0a69166e4b22dbf1cad4"}

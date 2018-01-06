@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../operators/windowWhen","loc":{"line":2,"column":27}}],"generated":{"js":"\"use strict\";var e=require(\"../operators/windowWhen\");function n(n){return e.windowWhen(n)(this)}exports.windowWhen=n;"},"hash":"085362f75353affc11579bec8330cbad"}

@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../operators/min","loc":{"line":2,"column":20}}],"generated":{"js":"\"use strict\";var r=require(\"../operators/min\");function i(i){return r.min(i)(this)}exports.min=i;"},"hash":"b585f96901c83983bae2d13f70160295"}

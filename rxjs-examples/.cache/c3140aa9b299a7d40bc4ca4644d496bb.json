@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/mergeScan","loc":{"line":3,"column":26}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/mergeScan\");e.Observable.prototype.mergeScan=r.mergeScan;"},"hash":"253e9d923bf2a55fa9e6b1370c4e7acc"}

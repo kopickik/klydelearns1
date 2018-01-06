@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../observable/fromEventPattern","loc":{"line":3,"column":33}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../observable/fromEventPattern\");e.Observable.fromEventPattern=r.fromEventPattern;"},"hash":"6e65107d70aabc8140ff2da00e543a26"}

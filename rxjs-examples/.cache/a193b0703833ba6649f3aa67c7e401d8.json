@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/partition","loc":{"line":3,"column":26}}],"generated":{"js":"\"use strict\";var r=require(\"../../Observable\"),e=require(\"../../operator/partition\");r.Observable.prototype.partition=e.partition;"},"hash":"ea5f7d41693a24e92864e8d24be39113"}

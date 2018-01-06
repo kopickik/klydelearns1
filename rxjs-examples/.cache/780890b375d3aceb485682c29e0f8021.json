@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/auditTime","loc":{"line":3,"column":26}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/auditTime\");e.Observable.prototype.auditTime=r.auditTime;"},"hash":"eaafea64326ca0dad640f043127ada21"}

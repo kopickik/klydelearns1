@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../operators/pluck","loc":{"line":2,"column":22}}],"generated":{"js":"\"use strict\";var r=require(\"../operators/pluck\");function t(){for(var t=[],e=0;e<arguments.length;e++)t[e-0]=arguments[e];return r.pluck.apply(void 0,t)(this)}exports.pluck=t;"},"hash":"38b406a5db81eb4185e1caa74124fcd1"}

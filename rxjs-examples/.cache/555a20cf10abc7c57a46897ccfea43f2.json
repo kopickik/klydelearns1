@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/repeatWhen","loc":{"line":3,"column":27}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/repeatWhen\");e.Observable.prototype.repeatWhen=r.repeatWhen;"},"hash":"9bdfa0b68965c84f6f7eb2189259990f"}

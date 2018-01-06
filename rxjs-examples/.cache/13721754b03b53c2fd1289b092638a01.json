@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/bufferTime","loc":{"line":3,"column":27}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/bufferTime\");e.Observable.prototype.bufferTime=r.bufferTime;"},"hash":"5d2a5a0961552e265a127482bd41395a"}

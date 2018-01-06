@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../Subject","loc":{"line":2,"column":24}},{"name":"./multicast","loc":{"line":3,"column":26}}],"generated":{"js":"\"use strict\";var t=require(\"../Subject\"),u=require(\"./multicast\");function e(e){return e?u.multicast(function(){return new t.Subject},e):u.multicast(new t.Subject)}exports.publish=e;"},"hash":"3ba9b40a239bcd65e53a9577cc865f87"}

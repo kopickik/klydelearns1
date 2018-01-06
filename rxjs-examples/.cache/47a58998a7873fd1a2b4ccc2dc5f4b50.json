@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./DeferObservable","loc":{"line":2,"column":32}}],"generated":{"js":"\"use strict\";var e=require(\"./DeferObservable\");exports.defer=e.DeferObservable.create;"},"hash":"95a7ff62080fbbe65d88b1c4ae987bc9"}

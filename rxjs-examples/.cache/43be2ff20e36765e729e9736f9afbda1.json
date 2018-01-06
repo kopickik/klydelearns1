@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./UsingObservable","loc":{"line":2,"column":32}}],"generated":{"js":"\"use strict\";var e=require(\"./UsingObservable\");exports.using=e.UsingObservable.create;"},"hash":"e2764f7107091e9b90c93d111cccee9d"}

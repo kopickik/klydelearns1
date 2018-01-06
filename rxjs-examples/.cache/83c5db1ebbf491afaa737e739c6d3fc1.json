@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../observable/combineLatest","loc":{"line":3,"column":30}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),b=require(\"../../observable/combineLatest\");e.Observable.combineLatest=b.combineLatest;"},"hash":"be208f084df11ccd0a7f2d954c02ffa2"}

@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../operators/takeWhile","loc":{"line":2,"column":26}}],"generated":{"js":"\"use strict\";var e=require(\"../operators/takeWhile\");function t(t){return e.takeWhile(t)(this)}exports.takeWhile=t;"},"hash":"160abd1a2fcb0565e9f28b6c8de5ff57"}

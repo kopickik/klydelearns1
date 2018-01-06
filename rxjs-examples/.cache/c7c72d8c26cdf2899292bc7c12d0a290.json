@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../operators/bufferCount","loc":{"line":2,"column":28}}],"generated":{"js":"\"use strict\";var r=require(\"../operators/bufferCount\");function u(u,t){return void 0===t&&(t=null),r.bufferCount(u,t)(this)}exports.bufferCount=u;"},"hash":"a8e7894df8fe4643cc97af94b7c21a5d"}

@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./FromEventObservable","loc":{"line":2,"column":36}}],"generated":{"js":"\"use strict\";var e=require(\"./FromEventObservable\");exports.fromEvent=e.FromEventObservable.create;"},"hash":"a5f793d6f2d29e8965cf283da7bf7b86"}

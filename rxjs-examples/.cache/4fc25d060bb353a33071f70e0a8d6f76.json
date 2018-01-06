@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../operators/last","loc":{"line":2,"column":21}}],"generated":{"js":"\"use strict\";var t=require(\"../operators/last\");function r(r,s,e){return t.last(r,s,e)(this)}exports.last=r;"},"hash":"e4b11a0412b10fc871d37fb4cb995274"}

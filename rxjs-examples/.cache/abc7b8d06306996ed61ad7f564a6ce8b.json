@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./PairsObservable","loc":{"line":2,"column":32}}],"generated":{"js":"\"use strict\";var r=require(\"./PairsObservable\");exports.pairs=r.PairsObservable.create;"},"hash":"8032f7ba1b661eb88dd72a9ac6c7b458"}

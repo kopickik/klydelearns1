@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/mergeMap","loc":{"line":3,"column":25}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/mergeMap\");e.Observable.prototype.mergeMap=r.mergeMap,e.Observable.prototype.flatMap=r.mergeMap;"},"hash":"c850d6d3a73e05a74be5fc26e7d0d086"}

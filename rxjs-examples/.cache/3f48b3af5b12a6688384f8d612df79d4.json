@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/timeout","loc":{"line":3,"column":24}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/timeout\");e.Observable.prototype.timeout=r.timeout;"},"hash":"09ba90d0664987d3c8baeb90592ef76b"}

@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/expand","loc":{"line":3,"column":23}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/expand\");e.Observable.prototype.expand=r.expand;"},"hash":"d641e69c65981f5e4ae56498d62de834"}

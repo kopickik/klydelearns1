@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/switchMap","loc":{"line":3,"column":26}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/switchMap\");e.Observable.prototype.switchMap=r.switchMap;"},"hash":"1589195362fdaab11f214c71fcc67efc"}

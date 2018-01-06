@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./PromiseObservable","loc":{"line":2,"column":34}}],"generated":{"js":"\"use strict\";var e=require(\"./PromiseObservable\");exports.fromPromise=e.PromiseObservable.create;"},"hash":"771f939845bc4fd5010868af87384613"}

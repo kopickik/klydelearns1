@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../operators/publish","loc":{"line":2,"column":24}}],"generated":{"js":"\"use strict\";var r=require(\"../operators/publish\");function s(s){return r.publish(s)(this)}exports.publish=s;"},"hash":"42c391d8b4105803f3c14ef94d473bcc"}

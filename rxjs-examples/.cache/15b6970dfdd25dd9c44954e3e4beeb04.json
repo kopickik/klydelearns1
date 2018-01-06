@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./TimerObservable","loc":{"line":2,"column":32}}],"generated":{"js":"\"use strict\";var e=require(\"./TimerObservable\");exports.timer=e.TimerObservable.create;"},"hash":"645eb7ba4220b02ecbfe8847b2ce47ac"}

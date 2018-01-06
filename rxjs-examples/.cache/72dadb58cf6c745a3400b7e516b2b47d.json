@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../operators/expand","loc":{"line":2,"column":23}}],"generated":{"js":"\"use strict\";var e=require(\"../operators/expand\");function r(r,I,i){return void 0===I&&(I=Number.POSITIVE_INFINITY),void 0===i&&(i=void 0),I=(I||0)<1?Number.POSITIVE_INFINITY:I,e.expand(r,I,i)(this)}exports.expand=r;"},"hash":"10ff4054cf9773da4e5cb60c1985a7c3"}

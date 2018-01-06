@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"./BoundCallbackObservable","loc":{"line":2,"column":40}}],"generated":{"js":"\"use strict\";var a=require(\"./BoundCallbackObservable\");exports.bindCallback=a.BoundCallbackObservable.create;"},"hash":"8c1a0235855887bad0f53c639114f699"}

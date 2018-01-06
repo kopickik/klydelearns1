@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";function t(t,r){for(var e=0,o=r.length;e<o;e++)for(var p=r[e],n=Object.getOwnPropertyNames(p.prototype),a=0,s=n.length;a<s;a++){var y=n[a];t.prototype[y]=p.prototype[y]}}exports.applyMixins=t;"},"hash":"89427f7869f6e38b53e1827ac71222c4"}

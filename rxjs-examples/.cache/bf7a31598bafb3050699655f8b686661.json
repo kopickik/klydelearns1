@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../operators/first","loc":{"line":2,"column":22}}],"generated":{"js":"\"use strict\";var r=require(\"../operators/first\");function t(t,s,i){return r.first(t,s,i)(this)}exports.first=t;"},"hash":"23b821981b94a3dca150269d0a20c40e"}

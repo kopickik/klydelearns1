@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../../Observable","loc":{"line":2,"column":27}},{"name":"../../operator/bufferCount","loc":{"line":3,"column":28}}],"generated":{"js":"\"use strict\";var e=require(\"../../Observable\"),r=require(\"../../operator/bufferCount\");e.Observable.prototype.bufferCount=r.bufferCount;"},"hash":"070de546a4cedb9c678d9a91f1696a6e"}

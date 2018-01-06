@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../operators/zip","loc":{"line":2,"column":20}}],"generated":{"js":"\"use strict\";var r=require(\"../operators/zip\");function t(){for(var t=[],i=0;i<arguments.length;i++)t[i-0]=arguments[i];return r.zip.apply(void 0,t)(this)}exports.zipProto=t;"},"hash":"e17de38967aea3e82e97c0ad5d438cf3"}
