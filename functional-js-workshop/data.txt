@@ -1,0 +1,6 @@
+Mark Johnasson	Blender	80	1
+Mark Johnasson	Waffle iron	50	1
+Mark Johnasson	Knife	40	3
+Bridget Carlsson	Blender	80	2
+Bridget Carlsson	Waffle iron	50	1
+Bridget Carlsson	Knife	40	9

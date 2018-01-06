@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/kopickik/klydelearns1#readme",
   "devDependencies": {
-    "h2o2": "^6.0.1",
-    "handlebars": "^4.0.10",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "inert": "^4.2.1",
     "react": "^15.6.1",
     "react-addons-test-utils": "^15.6.0",
@@ -33,6 +33,9 @@
   },
   "dependencies": {
     "hapi": "^16.5.2",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "rxjs-es": "^5.0.0-beta.12",
+    "rxjs-es6": "^5.0.0-alpha.12",
+    "through2": "^2.0.3"
   }
 }
