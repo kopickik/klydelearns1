@@ -1,3 +1,4 @@
+/* LINES */
 const through = require('through2')
 const split = require('split2')
 

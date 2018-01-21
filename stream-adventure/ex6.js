@@ -1,3 +1,4 @@
+/* CONCAT */
 const concat = require('concat-stream')
 
 process.stdin
