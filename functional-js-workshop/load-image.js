@@ -6,7 +6,7 @@ function loadImage(url, callback) {
 
     image.onerror = () => {
       let message = `Could not load image at ${url}`
-      reject(new Error(msg))
+      reject(new Error(message))
     }
 
     image.src = url
