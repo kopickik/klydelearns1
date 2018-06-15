@@ -32,10 +32,13 @@
     "vision": "^4.1.1"
   },
   "dependencies": {
+    "concat-stream": "^1.6.0",
     "hapi": "^16.5.2",
-    "react-dom": "^15.6.1",
+    "lodash": "^4.17.4",
     "rxjs-es": "^5.0.0-beta.12",
     "rxjs-es6": "^5.0.0-alpha.12",
-    "through2": "^2.0.3"
+    "split2": "^2.2.0",
+    "through2": "^2.0.3",
+    "through2-map": "^3.0.0"
   }
 }
