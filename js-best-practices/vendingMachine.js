@@ -8,6 +8,16 @@ var products = [
     name: 'Skittles',
     price: 85,
     id: 'A1'
+  },
+  {
+    name: 'Snickers',
+    price: 120,
+    id: 'A2'
+  },
+  {
+    name: 'Twix',
+    price: 110,
+    id: 'B1'
   }
 ];
 
