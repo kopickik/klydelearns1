@@ -68,7 +68,7 @@ function useMultiple(list) {
   //	 {"id": 70111470,"title": "Die Hard","boxart":"http://cdn-0.nflximg.com/images/2891/DieHard150.jpg" }
   // ];
   let results = _
-    .map(list, (l) => 
+    .map(list, (l) =>
       _.map(l.videos, (v, i) => {
         return {
           id: v.id,
@@ -83,7 +83,11 @@ function useMultiple(list) {
     )
     .concat()
 
-  return results
+    results = _.flatten(results)
+
+    results = _.orderBy(results, ['id'], ['asc'])
+
+    return results
 
 }
 

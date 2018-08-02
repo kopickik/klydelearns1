@@ -6,7 +6,7 @@ let newReleases = [
     "title": "Die Hard",
     "boxart": "http://cdn-0.nflximg.com/images/2891/DieHard.jpg",
     "uri": "http://api.netflix.com/catalog/titles/movies/70111470",
-    "rating": 4.0,
+    "rating": 9.0,
     "bookmark": []
   },
   {
@@ -36,8 +36,8 @@ let newReleases = [
 ]
 
 function getHighlyRatedMovies(movies) {
-  let results = _.filter(movies, (m) => m.rating === 5.0)
-      .map((movie) => movie.id)
+  let results = _.filter(movies, (m) => m.rating >= 5.0)
+      .map((movie) => movie.title)
   console.log(results)
   return results
 }

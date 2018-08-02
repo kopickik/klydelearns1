@@ -117,7 +117,7 @@ function fetchNiceMovies(list) {
   // Retrieve the time of the middle interesting moment and the smallest
   // box art url simultaneously with zip(). Return an {id, title, time, url}
   // object for each video.
-  let results = _.map(list, l => {
+  return _.map(list, l => {
     _.map(l.videos, v => {
       return _.concat(_.flatten(_.zip(
         _.reduce(v.boxarts, (prev, curr) => {
@@ -139,7 +139,6 @@ function fetchNiceMovies(list) {
       )));
     });
   });
-
-  return results;
 }
+
 console.log(fetchNiceMovies(movieLists));

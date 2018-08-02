@@ -69,3 +69,8 @@ function useMapAndConcat (lists) {
 }
 
 console.log(useMapAndConcat(movieLists))
+module.exports = {
+    allVideoIdsInMovieLists: allVideoIdsInMovieLists,
+    myConcatAll: myConcatAll,
+    useMapAndConcat: useMapAndConcat
+}

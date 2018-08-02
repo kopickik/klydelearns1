@@ -1,0 +1,18 @@
+{
+  "name": "esmtests",
+  "version": "1.0.0",
+  "description": "Testing es6 currying.",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.0.72"
+  },
+  "devDependencies": {
+    "ramda": "^0.25.0"
+  }
+}

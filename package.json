@@ -32,9 +32,12 @@
     "vision": "^4.1.1"
   },
   "dependencies": {
+    "@rxjs/rx": "^4.1.0",
     "concat-stream": "^1.6.0",
     "hapi": "^16.5.2",
     "lodash": "^4.17.4",
+    "rxjs": "^6.2.2",
+    "rxjs-compat": "^6.2.2",
     "rxjs-es": "^5.0.0-beta.12",
     "rxjs-es6": "^5.0.0-alpha.12",
     "split2": "^2.2.0",
