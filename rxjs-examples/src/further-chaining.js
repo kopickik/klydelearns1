@@ -82,7 +82,7 @@ function useMultiple(list) {
       })
     )
 
-    results = _.orderBy(results, ['id'], ['asc'])
+    results = _.orderBy(results, ['id', 'title'], ['asc'])
 
     return results
 
