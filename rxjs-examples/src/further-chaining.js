@@ -69,7 +69,7 @@ function useMultiple(list) {
   // ];
   let results = _
     .flatMap(list, (l) =>
-      _.map(l.videos, (v, i) => {
+      _.map(l.videos, (v) => {
         return {
           id: v.id,
           title: v.title,
