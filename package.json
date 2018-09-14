@@ -36,6 +36,7 @@
     "concat-stream": "^1.6.0",
     "hapi": "^16.5.2",
     "lodash": "^4.17.4",
+    "mathjs": "^5.1.1",
     "rxjs": "^6.2.2",
     "rxjs-compat": "^6.2.2",
     "rxjs-es": "^5.0.0-beta.12",
