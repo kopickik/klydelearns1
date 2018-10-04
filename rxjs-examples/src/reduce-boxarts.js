@@ -8,9 +8,9 @@ const boxarts = [
 ]
 // _.reduce boils an array down to a single value
 // in this example, the boxart with the largest width x height
+// we simply want the url of the object that meets our condition - largest dimensionally
 function reduceBoxarts(boxarts) {
     return _
-        // .map(boxarts, (boxart) => boxart.url)
         .reduce(boxarts, (prev, curr) => {
             if (prev.width * prev.height > curr.width * curr.height) {
                 return prev
