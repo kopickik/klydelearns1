@@ -158,7 +158,7 @@ const getSmallestBoxartUrl = (movie) => _.reduce(movie.boxarts, (prev, curr) => 
     }
 }).url
 
-const retrieveMiddleInterestingMomentsAndSmallestBoxartUrl = (array1) => {
+const retrieveMiddleInterestingMomentAndSmallestBoxartUrl = (array1) => {
     let results = []
     let vids = _.flatten(_.map(array1, (l) => l.videos))
     let boxartUrls = _.map(vids, (movie) => getSmallestBoxartUrl(movie))
@@ -169,4 +169,4 @@ const retrieveMiddleInterestingMomentsAndSmallestBoxartUrl = (array1) => {
     return results
 }
 
-console.log(retrieveMiddleInterestingMomentsAndSmallestBoxartUrl(movieLists))
+console.log(retrieveMiddleInterestingMomentAndSmallestBoxartUrl(movieLists))
