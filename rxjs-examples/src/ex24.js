@@ -1,3 +1,10 @@
+/**
+ * Each video has an interesting moments collection. One interesting moment represents a time
+ * during which a screenshot is interesting or representative of the title as a whole.
+ * Retrieve the time of the middle interesting moment and the smallest
+ * box art url simultaneously with zip().
+ * Return an {id, title, time, url} object for each video.
+ */
 const _ = require('lodash')
 
 const movieLists = [{
@@ -135,27 +142,31 @@ const movieLists = [{
     }
 ];
 
-//------------ COMPLETE THIS EXPRESSION --------------
-return movieLists.concatMap(function (movieList) {
-    return movieList.videos.concatMap(function (video) {
-        return Array.zip(
-            video.boxarts.reduce(function (acc, curr) {
-                if (acc.width * acc.height < curr.width * curr.height) {
-                    return acc;
-                } else {
-                    return curr;
-                }
-            }),
-            video.interestingMoments.filter(function (interestingMoment) {
-                return interestingMoment.type === "Middle";
-            }),
-            function (boxart, interestingMoment) {
-                return {
-                    id: video.id,
-                    title: video.title,
-                    time: interestingMoment.time,
-                    url: boxart.url
-                };
-            });
-    });
-});
+const getMiddleInterestingMoment = (movie) => _.reduce(movie.interestingMoments, (prev, curr) => {
+    if (prev.type === "Middle") {
+        return prev
+    } else {
+        return curr
+    }
+}).time
+
+const getSmallestBoxartUrl = (movie) => _.reduce(movie.boxarts, (prev, curr) => {
+    if (prev.width * prev.height < curr.width * curr.height) {
+        return prev
+    } else {
+        return curr
+    }
+}).url
+
+const retrieveMiddleInterestingMomentsAndSmallestBoxartUrl = (array1) => {
+    let results = []
+    let vids = _.flatten(_.map(array1, (l) => l.videos))
+    let boxartUrls = _.map(vids, (movie) => getSmallestBoxartUrl(movie))
+    let middleMoments = _.map(vids, (movie) => getMiddleInterestingMoment(movie))
+    _.map(vids, (vid, i) => {
+        results.push({id: vid.id, title: vid.title, time: middleMoments[i], url: boxartUrls[i]})
+    })
+    return results
+}
+
+console.log(retrieveMiddleInterestingMomentsAndSmallestBoxartUrl(movieLists))
