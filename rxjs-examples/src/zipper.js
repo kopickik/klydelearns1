@@ -34,8 +34,14 @@ const videos = [
 const bookmarks = [
     {id: 470, time: 23432},
     {id: 453, time: 234324},
+    {id: 445, time: 987834}
+];
+
+const bookmarksProperLength = [
+    {id: 470, time: 23432},
+    {id: 453, time: 234324},
     {id: 445, time: 987834},
-    {id: 465, time: 84256}
+    {id: 465, time: 8484}
 ];
 
 // For each video and bookmark pair, create a {videoId, bookmarkId} pair
@@ -44,9 +50,11 @@ const bookmarks = [
 function useZip (arrayA, arrayB) {
     let videoIdAndBookmarkPairs = []
     _.zipWith(arrayA, arrayB, (vid, bkmk) => {
-        videoIdAndBookmarkPairs.push({videoId: vid.id, bookmarkId: bkmk.id})
+        videoIdAndBookmarkPairs.push({videoId: vid.id, bookmarkId: bkmk !== undefined ? bkmk.id : null })
     })
     return videoIdAndBookmarkPairs
 }
 
-console.log(useZip(videos, bookmarks))
+let result = useZip(videos, bookmarks)
+let result2 = useZip(videos, bookmarksProperLength);
+console.log(result, result2)
