@@ -23,7 +23,7 @@ var products = [
 
 module.exports = {
 
-  getProducts: function() { 
+  getProducts: function() {
     return products;
   },
 
@@ -33,11 +33,9 @@ module.exports = {
   },
 
   isValidAmount: function(amount){
-    if(amount === null){
-      return false;
-    } else {
-      return true;
-    }
+      amount === null ?
+        false
+        : true
   },
 
   vendProduct: function(productId){
