@@ -9,6 +9,6 @@
 
     for (let n of fibonacci()) {
         console.dir(n)
-        if (n >= 100000) break;
+        if (n >= 1000000) break;
     }
 })();

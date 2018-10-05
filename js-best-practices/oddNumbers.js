@@ -6,5 +6,5 @@ module.exports = function getOdds(l, r) {
     for (var i = r; i >= l; i--) {
       if (odd(i)) {odds.push(i)}
     }
-  return odds.sort();
+  return odds.reverse();
 }
