@@ -5,6 +5,8 @@
  */
 const _ = require('lodash')
 
+let options = { depth: 4, colors: true }
+
 const lists = [{
         "id": 5434364,
         "name": "New Releases"
@@ -41,14 +43,11 @@ const buildGenreListWithTitles = () => {
     return _.map(lists, (list) => {
         return {
             name: list.name,
-            videos: JSON.stringify(_.filter(videos, (curr) => {
+            videos: _.filter(videos, (curr) => {
                 return list.id === curr.listId
-            }).map((vid) => Object.assign({
-                id: vid.id,
-                title: vid.title
-            })))
+            }).map((curr) => Object.assign({id: curr.id, title: curr.title }))
         }
     })
 }
 
-console.log(buildGenreListWithTitles(lists, videos))
+console.dir(buildGenreListWithTitles(), options)
