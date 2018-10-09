@@ -36,7 +36,8 @@ let videos = [{
         "title": "Bad Boys"
     }
 ]
-let boxarts = [{
+let boxarts = [
+    {
         videoId: 65432445,
         width: 130,
         height: 200,
@@ -91,7 +92,8 @@ let boxarts = [{
         url: "http://cdn-0.nflximg.com/images/2891/BadBoys140.jpg"
     }
 ]
-let bookmarks = [{
+let bookmarks = [
+    {
         videoId: 65432445,
         time: 32432
     },
