@@ -21,3 +21,6 @@ const mergeMapExample = source
     mergeMap(val => of(`Delayed by ${val}ms`).pipe(delay(val))),
   )
   .subscribe(val => console.log(`With mergeMap: ${val}`))
+
+subscription
+mergeMapExample

@@ -1,4 +1,4 @@
-const _ = require('lodash');
+const _ = require('lodash')
 
 const movieLists = [
   {
@@ -92,22 +92,22 @@ const movieLists = [
       },
     ],
   },
-];
+]
 
 function useBoth(movieLists) {
-  let results = [];
+  let results = []
   _.map(movieLists, movieList => {
     _.map(movieList.videos, v => {
       _.filter(v.boxarts, boxart => {
-        return boxart.width === 150 && boxart.height === 200;
+        return boxart.width === 150 && boxart.height === 200
       }).map(boxart =>
         results.push(
           Object.assign({}, { id: v.id, title: v.title, boxart: boxart.url }),
         ),
-      );
-    });
-  });
-  return results;
+      )
+    })
+  })
+  return results
 }
 
-console.log(useBoth(movieLists));
+console.log(useBoth(movieLists))

@@ -1,16 +1,16 @@
 // EX 22
 Array.zip = function(left, right, combinerFunction) {
   var counter,
-    results = [];
+    results = []
 
   for (counter = 0; counter < Math.min(left.length, right.length); counter++) {
-    results.push(combinerFunction(left[counter], right[counter]));
+    results.push(combinerFunction(left[counter], right[counter]))
   }
 
-  return results;
-};
+  return results
+}
 
-console.log(Array.zip([1, 2, 3], [4, 5, 6], (a, b) => a + b));
+console.log(Array.zip([1, 2, 3], [4, 5, 6], (a, b) => a + b))
 // EX 23
 let videos = [
   {
@@ -41,7 +41,7 @@ let videos = [
     uri: 'http://api.netflix.com/catalog/titles/movies/70111470',
     rating: 5.0,
   },
-];
+]
 
 let bookmarks = [
   {
@@ -56,13 +56,13 @@ let bookmarks = [
     id: 445,
     time: 987834,
   },
-];
+]
 
 console.log(
   Array.zip(videos, bookmarks, function(video, bookmark) {
     return {
       videoId: video.id,
       bookmarkId: bookmark.id,
-    };
+    }
   }),
-);
+)

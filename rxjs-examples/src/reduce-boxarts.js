@@ -1,4 +1,4 @@
-const _ = require('lodash');
+const _ = require('lodash')
 
 const boxarts = [
   {
@@ -21,18 +21,18 @@ const boxarts = [
     height: 150,
     url: 'http://cdn-0.nflximg.com/images/2891/Fracture425.jpg',
   },
-];
+]
 // _.reduce boils an array down to a single value
 // in this example, the boxart with the largest width x height
 // we simply want the url of the object that meets our condition - largest dimensionally
 function reduceBoxarts(boxarts) {
   return _.reduce(boxarts, (prev, curr) => {
     if (prev.width * prev.height > curr.width * curr.height) {
-      return prev;
+      return prev
     } else {
-      return curr;
+      return curr
     }
-  }).url;
+  }).url
 }
 
-console.log(reduceBoxarts(boxarts));
+console.log(reduceBoxarts(boxarts))

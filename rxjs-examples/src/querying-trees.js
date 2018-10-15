@@ -1,4 +1,4 @@
-const _ = require('lodash');
+const _ = require('lodash')
 
 let movieLists = [
   {
@@ -43,18 +43,18 @@ let movieLists = [
       },
     ],
   },
-];
+]
 
 function allVideoIdsInMovieLists(lists) {
-  return _.forEach(lists, list => _.forEach(video, videos => video.id));
+  return _.forEach(lists, list => _.forEach(list.videos, video => video.id))
 }
 
 function myConcatAll(subArray) {
-  let results = [];
+  let results = []
   _.forEach(subArray, function(subArray2) {
-    _.forEach(subArray2, subSubArray => results.push(subSubArray));
-  });
-  return results;
+    _.forEach(subArray2, subSubArray => results.push(subSubArray))
+  })
+  return results
 }
 
 //console.log(myConcatAll([ [1, 2, 3], [4, 5, 6], [7, 8, 9]]))
@@ -62,12 +62,12 @@ function myConcatAll(subArray) {
 // Exercise 11: Use map and concat to project and flatten the moviesList
 // into an array of video ids
 function useMapAndConcat(lists) {
-  return _.map(lists, list => _.map(list.videos, video => video.id)).concat();
+  return _.map(lists, list => _.map(list.videos, video => video.id)).concat()
 }
 
-console.log(useMapAndConcat(movieLists));
+console.log(useMapAndConcat(movieLists))
 module.exports = {
   allVideoIdsInMovieLists: allVideoIdsInMovieLists,
   myConcatAll: myConcatAll,
   useMapAndConcat: useMapAndConcat,
-};
+}

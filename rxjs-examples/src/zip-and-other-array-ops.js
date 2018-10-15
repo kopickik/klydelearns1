@@ -1,4 +1,4 @@
-const _ = require('lodash');
+const _ = require('lodash')
 
 // Exercise 24: Retrieve each video's id, title, middle interesting moment time,
 // and smallest box art url. Use zip.
@@ -111,7 +111,7 @@ let movieLists = [
       },
     ],
   },
-];
+]
 
 function fetchNiceMovies(list) {
   // Retrieve the time of the middle interesting moment and the smallest
@@ -124,9 +124,9 @@ function fetchNiceMovies(list) {
           _.zip(
             _.reduce(v.boxarts, (prev, curr) => {
               if (prev.width * prev.height < curr.width * curr.height) {
-                return prev;
+                return prev
               } else {
-                return curr;
+                return curr
               }
             }),
             _.filter(v.interestingMoments, m => m.type === 'Middle'),
@@ -136,13 +136,13 @@ function fetchNiceMovies(list) {
                 title: v.title,
                 url: boxart.url,
                 time: moment.time,
-              };
+              }
             },
           ),
         ),
-      );
-    });
-  });
+      )
+    })
+  })
 }
 
-console.log(fetchNiceMovies(movieLists));
+console.log(fetchNiceMovies(movieLists))

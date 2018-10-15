@@ -1,4 +1,4 @@
-const _ = require('lodash');
+const _ = require('lodash')
 /**
  * Let's try creating a deeper tree structure. This time we have 4 separate
  * arrays each containing lists, videos, boxarts, and bookmarks respectively.
@@ -15,7 +15,7 @@ let lists = [
     id: 65456475,
     name: 'Thrillers',
   },
-];
+]
 let videos = [
   {
     listId: 5434364,
@@ -37,7 +37,7 @@ let videos = [
     id: 654356453,
     title: 'Bad Boys',
   },
-];
+]
 let boxarts = [
   {
     videoId: 65432445,
@@ -93,7 +93,7 @@ let boxarts = [
     height: 200,
     url: 'http://cdn-0.nflximg.com/images/2891/BadBoys140.jpg',
   },
-];
+]
 let bookmarks = [
   {
     videoId: 65432445,
@@ -111,36 +111,36 @@ let bookmarks = [
     videoId: 654356453,
     time: 984934,
   },
-];
+]
 
-let options = { depth: 4, colors: true };
+let options = { depth: 4, colors: true }
 
 const listsWithVideos = () => {
   return _.map(lists, list => {
     return {
       name: list.name,
       videos: _.filter(videos, vid => {
-        return vid.listId === list.id;
+        return vid.listId === list.id
       }).map(vid => {
         return {
           id: vid.id,
           title: vid.title,
           bookmarkTime: _.filter(bookmarks, bkmk => {
-            return vid.id === bkmk.videoId;
+            return vid.id === bkmk.videoId
           }).reduce(bkmk => bkmk).time,
           smallestBoxartUrl: _.filter(boxarts, boxart => {
-            return boxart.videoId === vid.id;
+            return boxart.videoId === vid.id
           }).reduce((prev, curr) => {
             if (prev.width * prev.height > curr.width * curr.height) {
-              return curr;
+              return curr
             } else {
-              return prev;
+              return prev
             }
           }).url,
-        };
+        }
       }),
-    };
-  });
-};
+    }
+  })
+}
 
-console.dir(listsWithVideos(), options);
+console.dir(listsWithVideos(), options)

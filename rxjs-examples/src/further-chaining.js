@@ -1,4 +1,4 @@
-const _ = require('lodash');
+const _ = require('lodash')
 
 const movieLists = [
   {
@@ -92,7 +92,7 @@ const movieLists = [
       },
     ],
   },
-];
+]
 
 function useMultiple(list) {
   // Use one or more map, concatAll, and filter calls to create an array with the following items
@@ -101,24 +101,24 @@ function useMultiple(list) {
   //	 {"id": 65432445,"title": "The Chamber","boxart":"http://cdn-0.nflximg.com/images/2891/TheChamber150.jpg" },
   //	 {"id": 654356453,"title": "Bad Boys","boxart":"http://cdn-0.nflximg.com/images/2891/BadBoys150.jpg" },
   //	 {"id": 70111470,"title": "Die Hard","boxart":"http://cdn-0.nflximg.com/images/2891/DieHard150.jpg" }
-  // ];
+  // ]
   let results = _.flatMap(list, l =>
     _.map(l.videos, v => {
       return {
         id: v.id,
         title: v.title,
         boxart: _.filter(v.boxarts, function(boxc) {
-          return boxc.width === 150;
+          return boxc.width === 150
         }).reduce(function(prev, curr) {
-          return curr.url;
+          return curr.url
         }, ''),
-      };
+      }
     }),
-  );
+  )
 
-  results = _.orderBy(results, ['id', 'title'], ['asc']);
+  results = _.orderBy(results, ['id', 'title'], ['asc'])
 
-  return results;
+  return results
 }
 
-console.log(useMultiple(movieLists));
+console.log(useMultiple(movieLists))

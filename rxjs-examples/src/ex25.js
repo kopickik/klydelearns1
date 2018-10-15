@@ -3,9 +3,9 @@
  * Each video has a listId field indicating its parent list.
  * Build an array of list objects, each with a name and a videos array.
  */
-const _ = require('lodash');
+const _ = require('lodash')
 
-let options = { depth: 4, colors: true };
+let options = { depth: 4, colors: true }
 
 const lists = [
   {
@@ -16,7 +16,7 @@ const lists = [
     id: 65456475,
     name: 'Thrillers',
   },
-];
+]
 
 const videos = [
   {
@@ -39,17 +39,17 @@ const videos = [
     id: 654356453,
     title: 'Bad Boys',
   },
-];
+]
 
 const buildGenreListWithTitles = () => {
   return _.map(lists, list => {
     return {
       name: list.name,
       videos: _.filter(videos, curr => {
-        return list.id === curr.listId;
+        return list.id === curr.listId
       }).map(curr => Object.assign({ id: curr.id, title: curr.title })),
-    };
-  });
-};
+    }
+  })
+}
 
-console.dir(buildGenreListWithTitles(), options);
+console.dir(buildGenreListWithTitles(), options)

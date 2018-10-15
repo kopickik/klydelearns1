@@ -5,7 +5,7 @@
  * box art url simultaneously with zip().
  * Return an {id, title, time, url} object for each video.
  */
-const _ = require('lodash');
+const _ = require('lodash')
 
 const movieLists = [
   {
@@ -151,40 +151,40 @@ const movieLists = [
       },
     ],
   },
-];
+]
 
 const getMiddleInterestingMoment = movie =>
   _.reduce(movie.interestingMoments, (prev, curr) => {
     if (prev.type === 'Middle') {
-      return prev;
+      return prev
     } else {
-      return curr;
+      return curr
     }
-  }).time;
+  }).time
 
 const getSmallestBoxartUrl = movie =>
   _.reduce(movie.boxarts, (prev, curr) => {
     if (prev.width * prev.height < curr.width * curr.height) {
-      return prev;
+      return prev
     } else {
-      return curr;
+      return curr
     }
-  }).url;
+  }).url
 
 const retrieveMiddleInterestingMomentAndSmallestBoxartUrl = array1 => {
-  let results = [];
-  let vids = _.flatten(_.map(array1, l => l.videos));
-  let boxartUrls = _.map(vids, movie => getSmallestBoxartUrl(movie));
-  let middleMoments = _.map(vids, movie => getMiddleInterestingMoment(movie));
+  let results = []
+  let vids = _.flatten(_.map(array1, l => l.videos))
+  let boxartUrls = _.map(vids, movie => getSmallestBoxartUrl(movie))
+  let middleMoments = _.map(vids, movie => getMiddleInterestingMoment(movie))
   _.map(vids, (vid, i) => {
     results.push({
       id: vid.id,
       title: vid.title,
       time: middleMoments[i],
       url: boxartUrls[i],
-    });
-  });
-  return results;
-};
+    })
+  })
+  return results
+}
 
-console.log(retrieveMiddleInterestingMomentAndSmallestBoxartUrl(movieLists));
+console.log(retrieveMiddleInterestingMomentAndSmallestBoxartUrl(movieLists))

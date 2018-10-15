@@ -1,4 +1,4 @@
-const _ = require('lodash');
+const _ = require('lodash')
 
 let lists = [
   {
@@ -9,7 +9,7 @@ let lists = [
     id: 65456475,
     name: 'Thrillers',
   },
-];
+]
 
 let videos = [
   {
@@ -32,7 +32,7 @@ let videos = [
     id: 654356453,
     title: 'Bad Boys',
   },
-];
+]
 
 function useParentGenreListId(genres, movies) {
   let newTree = _.map(genres, g => {
@@ -42,15 +42,15 @@ function useParentGenreListId(genres, movies) {
         name: g.name,
         videos: _.compact(
           _.map(movies, m => {
-            return m.listId === g.id ? { id: m.id, title: m.title } : null;
+            return m.listId === g.id ? { id: m.id, title: m.title } : null
           }),
         ).reduce((acc, curr, currIdx, final) => {
-          return JSON.stringify(final);
+          return JSON.stringify(final)
         }, {}),
       },
-    );
-  });
-  console.log(newTree);
+    )
+  })
+  console.log(newTree)
 }
 
 function usingFilterInstead(genres, movies) {
@@ -59,12 +59,12 @@ function usingFilterInstead(genres, movies) {
       name: g.name,
       videos: _.filter(movies, m => m.listId === g.id)
         .map(m => {
-          return { id: m.id, title: m.title };
+          return { id: m.id, title: m.title }
         })
         .reduce((acc, prev, curr, final) => JSON.stringify(final), {}),
-    };
-  });
+    }
+  })
 }
 
-// console.log(useParentGenreListId(lists, videos))
-console.log(usingFilterInstead(lists, videos));
+console.log(useParentGenreListId(lists, videos))
+console.log(usingFilterInstead(lists, videos))

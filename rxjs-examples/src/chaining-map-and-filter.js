@@ -1,4 +1,4 @@
-const _ = require('lodash');
+const _ = require('lodash')
 
 let newReleases = [
   {
@@ -33,14 +33,12 @@ let newReleases = [
     rating: 5.0,
     bookmark: [{ id: 432534, time: 65876586 }],
   },
-];
+]
 
 function getHighlyRatedMovies(movies) {
-  let results = _.filter(movies, m => m.rating >= 5.0).map(
-    movie => movie.title,
-  );
-  console.log(results);
-  return results;
+  let results = _.filter(movies, m => m.rating >= 5.0).map(movie => movie.title)
+  console.log(results)
+  return results
 }
 
-module.exports = getHighlyRatedMovies(newReleases);
+module.exports = getHighlyRatedMovies(newReleases)

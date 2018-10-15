@@ -3,16 +3,15 @@
  * allows us to create data sets that react and update as the system changes over time.
  * Let's start off by contrasting Observable with Events.
  */
-const _ = require('lodash');
-const { Observable } = require('rxjs');
+const { Observable } = require('rxjs')
 
 // Event subscription
-(function(btn) {
-  let handler = e => {
-    btn.removeEventListener('click', handler);
-    console.log('Button clicked.  Unsubscribing..');
-  };
-  btn.addEventListener('click', handler);
+;(function(btn) {
+  let handler = () => {
+    btn.removeEventListener('click', handler)
+    console.log('Button clicked.  Unsubscribing..')
+  }
+  btn.addEventListener('click', handler)
 })(
   /**
    * Subscribing to an Event and traversing an Array are fundamentally the same operation.
@@ -21,11 +20,11 @@ const { Observable } = require('rxjs');
    * to an Observable object, we can use forEach() to traverse the Event.
    */
   function(btn) {
-    let buttonClicks = Observable.fromEvent(btn, 'click');
-    let subscription = buttonClicks.forEach(clickEvent => {
-      console.log('Button was clicked.  Stopping event traversal..');
-      subscription.dispose();
-    });
+    let buttonClicks = Observable.fromEvent(btn, 'click')
+    let subscription = buttonClicks.forEach(() => {
+      console.log('Button was clicked.  Stopping event traversal..')
+      subscription.dispose()
+    })
   },
 )(
   /**
@@ -36,9 +35,9 @@ const { Observable } = require('rxjs');
    * our Event sequence, we don't need to unsubscribe!
    */
   function(btn) {
-    let buttonClicks = Observable.fromEvent(btn, 'click');
+    let buttonClicks = Observable.fromEvent(btn, 'click')
     buttonClicks
       .take(1)
-      .forEach(() => console.log('Button was clicked. Stopping traversal..'));
+      .forEach(() => console.log('Button was clicked. Stopping traversal..'))
   },
-)();
+)()
