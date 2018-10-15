@@ -1,4 +1,4 @@
-const fetch = require('whatwg-fetch')
+const fetch = require('isomorphic-fetch')
 const endpointUrl = 'https://query.wikidata.org/sparql',
       sparqlQuery = `SELECT ?Ho_Chi_Minh ?Ho_Chi_MinhLabel WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
