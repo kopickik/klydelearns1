@@ -1,5 +1,6 @@
 const axios = require('axios')
 const { Observable } = require('rxjs/observable')
+const fs = require('fs')
 
 const getJSON = (url) => {
     return Observable.create((observer) => {
@@ -20,12 +21,10 @@ const getJSON = (url) => {
 }
 
 let observer = {
-    next: (res) => {
-        console.log(JSON.stringify(res.data))
-    },
+    next: (res) => fs.writeFileSync('output.html', res.data),
     error: (err) => console.log(err),
     complete: () => console.log("The async op has completed.")
 }
 
 let subscription = getJSON("http://taco-randomizer.herokuapp.com").subscribe(observer)
-console.log(subscription)
+module.exports = { subscription }
