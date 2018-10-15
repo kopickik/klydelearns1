@@ -28,9 +28,10 @@ module.exports = {
       'error',
       {
         singleQuote: true,
-        trailingComma: 'all'
+        trailingComma: 'all',
+        'semi': false
       },
     ],
-    'no-console': 0,
+    'no-console': 0
   }
 }

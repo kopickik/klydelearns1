@@ -1,116 +1,116 @@
-const _ = require("lodash");
+const _ = require('lodash');
 
 // Exercise 24: Retrieve each video's id, title, middle interesting moment time,
 // and smallest box art url. Use zip.
 
 let movieLists = [
   {
-    name: "New Releases",
+    name: 'New Releases',
     videos: [
       {
         id: 70111470,
-        title: "Die Hard",
+        title: 'Die Hard',
         boxarts: [
           {
             width: 150,
             height: 200,
-            url: "http://cdn-0.nflximg.com/images/2891/DieHard150.jpg"
+            url: 'http://cdn-0.nflximg.com/images/2891/DieHard150.jpg',
           },
           {
             width: 200,
             height: 200,
-            url: "http://cdn-0.nflximg.com/images/2891/DieHard200.jpg"
-          }
+            url: 'http://cdn-0.nflximg.com/images/2891/DieHard200.jpg',
+          },
         ],
-        url: "http://api.netflix.com/catalog/titles/movies/70111470",
+        url: 'http://api.netflix.com/catalog/titles/movies/70111470',
         rating: 4.0,
         interestingMoments: [
-          { type: "End", time: 213432 },
-          { type: "Start", time: 64534 },
-          { type: "Middle", time: 323133 }
-        ]
+          { type: 'End', time: 213432 },
+          { type: 'Start', time: 64534 },
+          { type: 'Middle', time: 323133 },
+        ],
       },
       {
         id: 654356453,
-        title: "Bad Boys",
+        title: 'Bad Boys',
         boxarts: [
           {
             width: 200,
             height: 200,
-            url: "http://cdn-0.nflximg.com/images/2891/BadBoys200.jpg"
+            url: 'http://cdn-0.nflximg.com/images/2891/BadBoys200.jpg',
           },
           {
             width: 140,
             height: 200,
-            url: "http://cdn-0.nflximg.com/images/2891/BadBoys140.jpg"
-          }
+            url: 'http://cdn-0.nflximg.com/images/2891/BadBoys140.jpg',
+          },
         ],
-        url: "http://api.netflix.com/catalog/titles/movies/70111470",
+        url: 'http://api.netflix.com/catalog/titles/movies/70111470',
         rating: 5.0,
         interestingMoments: [
-          { type: "End", time: 54654754 },
-          { type: "Start", time: 43524243 },
-          { type: "Middle", time: 6575665 }
-        ]
-      }
-    ]
+          { type: 'End', time: 54654754 },
+          { type: 'Start', time: 43524243 },
+          { type: 'Middle', time: 6575665 },
+        ],
+      },
+    ],
   },
   {
-    name: "Instant Queue",
+    name: 'Instant Queue',
     videos: [
       {
         id: 65432445,
-        title: "The Chamber",
+        title: 'The Chamber',
         boxarts: [
           {
             width: 130,
             height: 200,
-            url: "http://cdn-0.nflximg.com/images/2891/TheChamber130.jpg"
+            url: 'http://cdn-0.nflximg.com/images/2891/TheChamber130.jpg',
           },
           {
             width: 200,
             height: 200,
-            url: "http://cdn-0.nflximg.com/images/2891/TheChamber200.jpg"
-          }
+            url: 'http://cdn-0.nflximg.com/images/2891/TheChamber200.jpg',
+          },
         ],
-        url: "http://api.netflix.com/catalog/titles/movies/70111470",
+        url: 'http://api.netflix.com/catalog/titles/movies/70111470',
         rating: 4.0,
         interestingMoments: [
-          { type: "End", time: 132423 },
-          { type: "Start", time: 54637425 },
-          { type: "Middle", time: 3452343 }
-        ]
+          { type: 'End', time: 132423 },
+          { type: 'Start', time: 54637425 },
+          { type: 'Middle', time: 3452343 },
+        ],
       },
       {
         id: 675465,
-        title: "Fracture",
+        title: 'Fracture',
         boxarts: [
           {
             width: 200,
             height: 200,
-            url: "http://cdn-0.nflximg.com/images/2891/Fracture200.jpg"
+            url: 'http://cdn-0.nflximg.com/images/2891/Fracture200.jpg',
           },
           {
             width: 120,
             height: 200,
-            url: "http://cdn-0.nflximg.com/images/2891/Fracture120.jpg"
+            url: 'http://cdn-0.nflximg.com/images/2891/Fracture120.jpg',
           },
           {
             width: 300,
             height: 200,
-            url: "http://cdn-0.nflximg.com/images/2891/Fracture300.jpg"
-          }
+            url: 'http://cdn-0.nflximg.com/images/2891/Fracture300.jpg',
+          },
         ],
-        url: "http://api.netflix.com/catalog/titles/movies/70111470",
+        url: 'http://api.netflix.com/catalog/titles/movies/70111470',
         rating: 5.0,
         interestingMoments: [
-          { type: "End", time: 45632456 },
-          { type: "Start", time: 234534 },
-          { type: "Middle", time: 3453434 }
-        ]
-      }
-    ]
-  }
+          { type: 'End', time: 45632456 },
+          { type: 'Start', time: 234534 },
+          { type: 'Middle', time: 3453434 },
+        ],
+      },
+    ],
+  },
 ];
 
 function fetchNiceMovies(list) {
@@ -119,24 +119,28 @@ function fetchNiceMovies(list) {
   // object for each video.
   return _.map(list, l => {
     _.map(l.videos, v => {
-      return _.concat(_.flatten(_.zip(
-        _.reduce(v.boxarts, (prev, curr) => {
-          if (prev.width * prev.height < curr.width * curr.height) {
-            return prev;
-          } else {
-            return curr;
-          }
-        }),
-        _.filter(v.interestingMoments, m => m.type === "Middle"),
-        function(boxart, moment) {
-          return {
-            id: v.id,
-            title: v.title,
-            url: boxart.url,
-            time: moment.time
-          };
-        }
-      )));
+      return _.concat(
+        _.flatten(
+          _.zip(
+            _.reduce(v.boxarts, (prev, curr) => {
+              if (prev.width * prev.height < curr.width * curr.height) {
+                return prev;
+              } else {
+                return curr;
+              }
+            }),
+            _.filter(v.interestingMoments, m => m.type === 'Middle'),
+            function(boxart, moment) {
+              return {
+                id: v.id,
+                title: v.title,
+                url: boxart.url,
+                time: moment.time,
+              };
+            },
+          ),
+        ),
+      );
     });
   });
 }
