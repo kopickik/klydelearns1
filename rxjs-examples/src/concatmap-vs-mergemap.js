@@ -5,7 +5,7 @@ const delay = Rx.operators.delay
 const mergeMap = Rx.operators.mergeMap
 const of = Rx.Observable.of
 
-const source = of(2000, 1000)
+const source = of(200, 1000)
 
 const example = source.pipe(
   concatMap(val => of(`Delayed by ${val}ms`).pipe(delay(val))),
