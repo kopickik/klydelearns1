@@ -28,8 +28,9 @@ module.exports = {
       'error',
       {
         singleQuote: true,
-        trailingComma: 'all',
-        'semi': false
+        commaDangle: 'only-multiline',
+        'semi': false,
+        quotes: 0
       },
     ],
     'no-console': 0
