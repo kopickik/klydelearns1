@@ -1,0 +1,18 @@
+{
+  "name": "igdb-tinkering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scrape-igdb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.1.0",
+    "igdb-api-node": "^3.1.7",
+    "rxjs": "^6.3.3"
+  }
+}
