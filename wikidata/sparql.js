@@ -10,15 +10,11 @@ const headers = {
   Accept: 'application/sparql-results+json',
 }
 
-fetch(fullUrl, {
-    headers
-  })
+fetch(fullUrl, { headers })
   .then(body => body.json())
   .then(json => {
     const {
-      head: {
-        vars
-      },
+      head: { vars },
       results
     } = json
     for (const result of results.bindings) {
