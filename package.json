@@ -39,7 +39,7 @@
   "dependencies": {
     "@rxjs/rx": "^4.1.0",
     "concat-stream": "^1.6.0",
-    "hapi": "^16.5.2",
+    "hapi": "^17.8.1",
     "lodash": "^4.17.4",
     "mathjs": "^5.1.1",
     "rxjs": "^6.2.2",
