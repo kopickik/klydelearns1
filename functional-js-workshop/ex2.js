@@ -3,7 +3,7 @@
 function repeat(op, num) {
   return function() {
     for (var i = 0; i < num; i++) {
-      op();
+      op()
     }
   }
 }

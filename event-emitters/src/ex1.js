@@ -15,6 +15,9 @@ myEmitter.on('event', function(a, b) {
 
 myEmitter.emit('event', '1', 2)
 
+myEmitter.on('async', function() {
+  setImmediate(() => console.log(++m))
+})
 /*
 * When the EventEmitter object emits an event, all of the functions attached
 * to that specific event are called synchronously. Any values returned by the
