@@ -1,6 +1,5 @@
 const path = require('path')
 require('dotenv').config()
-const igdb = require('igdb-api-node').default
 const axios = require('axios')
 const { Observable } = require('rxjs/observable')
 const fs = require('fs')
@@ -33,9 +32,9 @@ const observer = {
     complete: () => console.log('File scrape complete.')
 }
 
-const subscription = getJSON("https://api-endpoint.igdb.com/games/1942?fields=*", {
+const subscription = getJSON("https://api-endpoint.igdb.com/games/3101?fields=*", {
     headers: {
-        "user-key": process.env.IGDB_USER_KEY,
+        "user-key": igdbkey,
         Accept: "application/json"
     }
 }).subscribe(observer)
