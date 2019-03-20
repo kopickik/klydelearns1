@@ -9,9 +9,9 @@ let addImg = (src) => {
 }
 
 Promise.all([
-  loadImage('images/cat1.jpg'),
-  loadImage('images/cat2.jpg'),
-  loadImage('images/cat3.jpg')
+  loadImage('images/cat1.png'),
+  // loadImage('images/cat2.png'),
+  // loadImage('images/cat3.png')
 ]).then(images => {
   images.forEach(img => addImg(img.src))
 })

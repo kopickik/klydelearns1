@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@rxjs/rx": "^4.1.0",
+    "browserify": "^16.2.3",
     "concat-stream": "^1.6.0",
     "hapi": "^17.8.1",
     "lodash": "^4.17.11",
