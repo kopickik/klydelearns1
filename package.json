@@ -38,16 +38,20 @@
   },
   "dependencies": {
     "@rxjs/rx": "^4.1.0",
+    "cheerio": "^1.0.0-rc.3",
     "concat-stream": "^1.6.0",
+    "got": "^9.6.0",
     "hapi": "^17.8.1",
     "lodash": "^4.17.4",
     "mathjs": "^5.1.1",
+    "p-map": "^2.1.0",
     "rxjs": "^6.2.2",
     "rxjs-compat": "^6.2.2",
     "rxjs-es": "^5.0.0-beta.12",
     "rxjs-es6": "^5.0.0-alpha.12",
     "split2": "^2.2.0",
     "through2": "^2.0.3",
-    "through2-map": "^3.0.0"
+    "through2-map": "^3.0.0",
+    "url": "^0.11.0"
   }
 }

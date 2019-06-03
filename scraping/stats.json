@@ -1,0 +1,598 @@
+[
+  {
+    "url": "https://github.com/jlevy/the-art-of-command-line",
+    "userName": "jlevy",
+    "repoName": "the-art-of-command-line",
+    "desc": "Master the command line, in one page",
+    "numCommits": 1185,
+    "numIssues": 76,
+    "numPRs": 62,
+    "numProjects": 0,
+    "numWatchers": 1691,
+    "numStars": 51246,
+    "languages": []
+  },
+  {
+    "url": "https://github.com/algorithm-visualizer/algorithm-visualizer",
+    "userName": "algorithm-visualizer",
+    "repoName": "algorithm-visualizer",
+    "desc": "🎆Interactive Online Platform that Visualizes Algorithms from Code",
+    "numCommits": 635,
+    "numIssues": 9,
+    "numPRs": 2,
+    "numProjects": 0,
+    "numWatchers": 723,
+    "numStars": 17698,
+    "languages": [
+      {
+        "language": "JavaScript",
+        "percent": 86.2
+      },
+      {
+        "language": "CSS",
+        "percent": 10.2
+      },
+      {
+        "language": "HTML",
+        "percent": 0.9
+      },
+      {
+        "language": "Java",
+        "percent": 0.8
+      },
+      {
+        "language": "C++",
+        "percent": 0.7
+      },
+      {
+        "language": "Dockerfile",
+        "percent": 0.7
+      },
+      {
+        "language": "Other",
+        "percent": 0.5
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/github/semantic",
+    "userName": "github",
+    "repoName": "semantic",
+    "desc": "Parsing, analyzing, and comparing source code across many languages",
+    "numCommits": 28209,
+    "numIssues": 19,
+    "numPRs": 0,
+    "numWatchers": 63,
+    "numStars": 2363,
+    "languages": [
+      {
+        "language": "Haskell",
+        "percent": 99.7
+      },
+      {
+        "language": "Other",
+        "percent": 0.3
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/jackfrued/Python-100-Days",
+    "userName": "jackfrued",
+    "repoName": "Python-100-Days",
+    "desc": "Python - 100天从新手到大师",
+    "numCommits": 217,
+    "numIssues": 80,
+    "numPRs": 18,
+    "numProjects": 0,
+    "numWatchers": 2297,
+    "numStars": 37360,
+    "languages": [
+      {
+        "language": "Jupyter Notebook",
+        "percent": 38
+      },
+      {
+        "language": "HTML",
+        "percent": 25.8
+      },
+      {
+        "language": "Python",
+        "percent": 19.4
+      },
+      {
+        "language": "JavaScript",
+        "percent": 9.9
+      },
+      {
+        "language": "CSS",
+        "percent": 6.9
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/halo-dev/halo",
+    "userName": "halo-dev",
+    "repoName": "halo",
+    "desc": "✍ Halo 一款现代化的个人独立博客系统",
+    "numCommits": 1309,
+    "numIssues": 5,
+    "numPRs": 0,
+    "numProjects": 2,
+    "numWatchers": 158,
+    "numStars": 4796,
+    "languages": [
+      {
+        "language": "Java",
+        "percent": 74.1
+      },
+      {
+        "language": "CSS",
+        "percent": 20.7
+      },
+      {
+        "language": "FreeMarker",
+        "percent": 4.8
+      },
+      {
+        "language": "Other",
+        "percent": 0.4
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/mathieudutour/medium-to-own-blog",
+    "userName": "mathieudutour",
+    "repoName": "medium-to-own-blog",
+    "desc": "Switch from Medium to your own blog in a few minutes",
+    "numCommits": 60,
+    "numIssues": 8,
+    "numPRs": 2,
+    "numWatchers": 18,
+    "numStars": 1610,
+    "languages": [
+      {
+        "language": "JavaScript",
+        "percent": 88.9
+      },
+      {
+        "language": "CSS",
+        "percent": 11.1
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/entropic-dev/entropic",
+    "userName": "entropic-dev",
+    "repoName": "entropic",
+    "desc": "a package registry for anything, but mostly javascript",
+    "numCommits": 83,
+    "numIssues": 34,
+    "numPRs": 6,
+    "numProjects": 1,
+    "numWatchers": 52,
+    "numStars": 903,
+    "languages": [
+      {
+        "language": "JavaScript",
+        "percent": 99.9
+      },
+      {
+        "language": "Other",
+        "percent": 0.1
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/v2ray/v2ray-core",
+    "userName": "v2ray",
+    "repoName": "v2ray-core",
+    "desc": "A platform for building proxies to bypass network restrictions.",
+    "numCommits": 4422,
+    "numIssues": 87,
+    "numPRs": 1,
+    "numWatchers": 922,
+    "numStars": 16464,
+    "languages": [
+      {
+        "language": "Go",
+        "percent": 97.1
+      },
+      {
+        "language": "Shell",
+        "percent": 1.7
+      },
+      {
+        "language": "Python",
+        "percent": 1.2
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/calebwin/emu",
+    "userName": "calebwin",
+    "repoName": "emu",
+    "desc": "a language for programming GPUs",
+    "numCommits": 98,
+    "numIssues": 5,
+    "numPRs": 0,
+    "numWatchers": 6,
+    "numStars": 356,
+    "languages": [
+      {
+        "language": "Rust",
+        "percent": 100
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/metafizzy/zdog",
+    "userName": "metafizzy",
+    "repoName": "zdog",
+    "desc": "Flat, round, designer-friendly pseudo-3D engine",
+    "numCommits": 293,
+    "numIssues": 24,
+    "numPRs": 2,
+    "numWatchers": 62,
+    "numStars": 4394,
+    "languages": [
+      {
+        "language": "JavaScript",
+        "percent": 99.5
+      },
+      {
+        "language": "Makefile",
+        "percent": 0.5
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/kizitonwose/CalendarView",
+    "userName": "kizitonwose",
+    "repoName": "CalendarView",
+    "desc": "A highly customizable calendar library for Android, powered by RecyclerView.",
+    "numCommits": 216,
+    "numIssues": 1,
+    "numPRs": 1,
+    "numProjects": 0,
+    "numWatchers": 3,
+    "numStars": 299,
+    "languages": [
+      {
+        "language": "Kotlin",
+        "percent": 100
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/MisterBooo/LeetCodeAnimation",
+    "userName": "MisterBooo",
+    "repoName": "LeetCodeAnimation",
+    "desc": "Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路）",
+    "numCommits": 64,
+    "numIssues": 0,
+    "numPRs": 0,
+    "numProjects": 0,
+    "numWatchers": 1371,
+    "numStars": 29431,
+    "languages": [
+      {
+        "language": "Java",
+        "percent": 100
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/lukemelas/EfficientNet-PyTorch",
+    "userName": "lukemelas",
+    "repoName": "EfficientNet-PyTorch",
+    "desc": "A PyTorch implementation of EfficientNet",
+    "numCommits": 26,
+    "numIssues": 3,
+    "numPRs": 0,
+    "numProjects": 0,
+    "numWatchers": 54,
+    "numStars": 612,
+    "languages": [
+      {
+        "language": "Python",
+        "percent": 98.6
+      },
+      {
+        "language": "Shell",
+        "percent": 1.4
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/wangzheng0822/algo",
+    "userName": "wangzheng0822",
+    "repoName": "algo",
+    "desc": "数据结构和算法必知必会的50个代码实现",
+    "numCommits": 879,
+    "numIssues": 41,
+    "numPRs": 0,
+    "numProjects": 0,
+    "numWatchers": 407,
+    "numStars": 6728,
+    "languages": [
+      {
+        "language": "C",
+        "percent": 17
+      },
+      {
+        "language": "Python",
+        "percent": 15.8
+      },
+      {
+        "language": "C++",
+        "percent": 15.5
+      },
+      {
+        "language": "Scala",
+        "percent": 11.4
+      },
+      {
+        "language": "Go",
+        "percent": 8
+      },
+      {
+        "language": "Java",
+        "percent": 7.7
+      },
+      {
+        "language": "Other",
+        "percent": 24.6
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/binhnguyennus/awesome-scalability",
+    "userName": "binhnguyennus",
+    "repoName": "awesome-scalability",
+    "desc": "The Patterns Behind Scalable, Reliable, and Performant Large-Scale Systems",
+    "numCommits": 876,
+    "numIssues": 1,
+    "numWatchers": 1174,
+    "numStars": 18753,
+    "languages": []
+  },
+  {
+    "url": "https://github.com/microsoft/terminal",
+    "userName": "microsoft",
+    "repoName": "terminal",
+    "desc": "The new Windows Terminal, and the original Windows console host -- all in the same place!",
+    "numCommits": 278,
+    "numIssues": 362,
+    "numPRs": 25,
+    "numProjects": 1,
+    "numWatchers": 1001,
+    "numStars": 42889,
+    "languages": [
+      {
+        "language": "C++",
+        "percent": 91.7
+      },
+      {
+        "language": "C#",
+        "percent": 5.2
+      },
+      {
+        "language": "C",
+        "percent": 2
+      },
+      {
+        "language": "Assembly",
+        "percent": 0.3
+      },
+      {
+        "language": "Batchfile",
+        "percent": 0.3
+      },
+      {
+        "language": "PHP",
+        "percent": 0.2
+      },
+      {
+        "language": "Other",
+        "percent": 0.3
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/CyC2018/CS-Notes",
+    "userName": "CyC2018",
+    "repoName": "CS-Notes",
+    "desc": "📚 技术面试必备基础知识、Leetcode 题解、后端面试、Java 面试、春招、秋招、操作系统、计算机网络、系统设计",
+    "numCommits": 3234,
+    "numIssues": 21,
+    "numPRs": 5,
+    "numProjects": 0,
+    "numWatchers": 3512,
+    "numStars": 64656,
+    "languages": [
+      {
+        "language": "Java",
+        "percent": 33.4
+      },
+      {
+        "language": "Python",
+        "percent": 33.3
+      },
+      {
+        "language": "C++",
+        "percent": 33.3
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/Snailclimb/JavaGuide",
+    "userName": "Snailclimb",
+    "repoName": "JavaGuide",
+    "desc": "【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。",
+    "numCommits": 1448,
+    "numIssues": 19,
+    "numPRs": 0,
+    "numProjects": 0,
+    "numWatchers": 2499,
+    "numStars": 42270,
+    "languages": [
+      {
+        "language": "Java",
+        "percent": 100
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/getify/You-Dont-Know-JS",
+    "userName": "getify",
+    "repoName": "You-Dont-Know-JS",
+    "desc": "A book series on JavaScript. @YDKJS on twitter.",
+    "numCommits": 1487,
+    "numIssues": 148,
+    "numPRs": 106,
+    "numProjects": 1,
+    "numWatchers": 5205,
+    "numStars": 102778,
+    "languages": []
+  },
+  {
+    "url": "https://github.com/koalaman/shellcheck",
+    "userName": "koalaman",
+    "repoName": "shellcheck",
+    "desc": "ShellCheck, a static analysis tool for shell scripts",
+    "numCommits": 1315,
+    "numIssues": 401,
+    "numPRs": 7,
+    "numProjects": 0,
+    "numWatchers": 372,
+    "numStars": 15107,
+    "languages": [
+      {
+        "language": "Haskell",
+        "percent": 98.4
+      },
+      {
+        "language": "Shell",
+        "percent": 1.4
+      },
+      {
+        "language": "Dockerfile",
+        "percent": 0.2
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/mholt/PapaParse",
+    "userName": "mholt",
+    "repoName": "PapaParse",
+    "desc": "Fast and powerful CSV (delimited text) parser that gracefully handles large files and malformed input",
+    "numCommits": 413,
+    "numIssues": 71,
+    "numPRs": 4,
+    "numProjects": 0,
+    "numWatchers": 157,
+    "numStars": 7176,
+    "languages": [
+      {
+        "language": "JavaScript",
+        "percent": 89.2
+      },
+      {
+        "language": "CSS",
+        "percent": 8.5
+      },
+      {
+        "language": "HTML",
+        "percent": 2.3
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/TheAlgorithms/Python",
+    "userName": "TheAlgorithms",
+    "repoName": "Python",
+    "desc": "All Algorithms implemented in Python",
+    "numCommits": 995,
+    "numIssues": 39,
+    "numPRs": 148,
+    "numProjects": 0,
+    "numWatchers": 2717,
+    "numStars": 44483,
+    "languages": [
+      {
+        "language": "Python",
+        "percent": 66.3
+      },
+      {
+        "language": "Jupyter Notebook",
+        "percent": 33.7
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/azl397985856/leetcode",
+    "userName": "azl397985856",
+    "repoName": "leetcode",
+    "desc": "LeetCode Solutions: A Record of My Problem Solving Journey.( leetcode题解，记录自己的leetcode解题之路。)",
+    "numCommits": 137,
+    "numIssues": 2,
+    "numPRs": 2,
+    "numProjects": 0,
+    "numWatchers": 412,
+    "numStars": 9271,
+    "languages": [
+      {
+        "language": "JavaScript",
+        "percent": 100
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/unidoc/unioffice",
+    "userName": "unidoc",
+    "repoName": "unioffice",
+    "desc": "Pure go library for creating and processing Office Word (.docx), Excel (.xlsx) and Powerpoint (.pptx) documents",
+    "numCommits": 358,
+    "numIssues": 19,
+    "numPRs": 0,
+    "numProjects": 0,
+    "numWatchers": 45,
+    "numStars": 1316,
+    "languages": [
+      {
+        "language": "Go",
+        "percent": 99.9
+      },
+      {
+        "language": "Other",
+        "percent": 0.1
+      }
+    ]
+  },
+  {
+    "url": "https://github.com/EtherDream/jsproxy",
+    "userName": "EtherDream",
+    "repoName": "jsproxy",
+    "desc": "一个基于浏览器端 JS 实现的在线代理",
+    "numCommits": 199,
+    "numIssues": 23,
+    "numPRs": 1,
+    "numProjects": 0,
+    "numWatchers": 100,
+    "numStars": 3860,
+    "languages": [
+      {
+        "language": "Shell",
+        "percent": 42
+      },
+      {
+        "language": "Lua",
+        "percent": 30.8
+      },
+      {
+        "language": "JavaScript",
+        "percent": 27.2
+      }
+    ]
+  }
+]
