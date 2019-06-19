@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/kopickik/klydelearns1#readme",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "@babel/cli": "^7.4.4",
     "babel-eslint": "10.0.1",
     "babel-preset-env": "^1.6.1",
     "eslint": "5.7.0",
