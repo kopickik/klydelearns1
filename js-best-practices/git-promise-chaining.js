@@ -1,3 +1,4 @@
+require('dotenv').config()
 const request = require('request-promise')
 const _ = require('lodash')
 
@@ -56,4 +57,4 @@ const main = (params) => {
     .then(github.getUserRepos)
 }
 
-main({'token': 'b2bb11ae90a35ac3ec7286d01e0e9e86d4feaab1'}).then(result => console.log(result))
+main({'token': process.env.GITHUB_PERSONAL_ACCESS_TOKEN}).then(result => console.log(result))
