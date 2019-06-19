@@ -178,8 +178,10 @@ function startAppServer() {
   ]).on('change', server.reload);
 
   watch('app/styles/**/*.scss', styles);
+  watch('app/styles/**/*.sass', styles);
   watch('app/scripts/**/*.js', scripts);
   watch('app/*.pug', views);
+  watch('app/views/**/*.pug', views);
   watch('modernizr.json', modernizr);
   watch('app/fonts/**/*', fonts);
 }

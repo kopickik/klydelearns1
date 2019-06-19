@@ -18,7 +18,11 @@ html.no-js(lang='en-us')
     <!--[if lt IE 10]>
       p.browserupgrade You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> to improve your experience.
     <![endif]-->
+    // Use the .root CSS selector with React to set all state in the application.
     .root
+
+      // Include individual SSR views here
+      include views/grid-1.pug
 
     // build:js scripts/vendor.js
     // endbuild
