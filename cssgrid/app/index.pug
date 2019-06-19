@@ -1,0 +1,27 @@
+doctype html
+html.no-js(lang='en-us')
+  head
+    meta(charset='utf-8')
+    meta(name='description', content='spoonfedweb experimentations with css grid specification.')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    title CSS grid examples!
+    link(rel='apple-touch-icon', href='apple-touch-icon.png')
+    // Place favicon.ico in the root directory
+    // build:css styles/main.css
+    link(rel='stylesheet', href='styles/main.css')
+    // endbuild
+    // build:js scripts/modernizr.js
+    script(src='scripts/modernizr.js')
+    // endbuild
+
+  body
+    <!--[if lt IE 10]>
+      p.browserupgrade You are using an <strong>outdated</strong> browser. Please <a href='http://browsehappy.com/'>upgrade your browser</a> to improve your experience.
+    <![endif]-->
+    .root
+
+    // build:js scripts/vendor.js
+    // endbuild
+    // build:js scripts/main.js
+    script(src='scripts/main.js')
+    // endbuild

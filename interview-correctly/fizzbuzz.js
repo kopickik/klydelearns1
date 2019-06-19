@@ -38,7 +38,7 @@
  * "12:00"       "Cuckoo Cuckoo Cuckoo Cuckoo Cuckoo Cuckoo Cuckoo"
  */
 
-module.exports = function fizzBuzzCuckooClock(time) {
+function fizzBuzzCuckooClock(time) {
   let hour = Math.min(time.split(":")[0])
   let min = time.split(":")[1]
 
@@ -89,11 +89,17 @@ module.exports = function fizzBuzzCuckooClock(time) {
 // V2
 
 function fbcc (time) {
-  let [hour, minute] = Math.min(time.split(":"))
+  let hour = Math.min(time.split(":")[0])
+  let minute = Math.min(time.split(":")[1])
   return minute === 0 ? "Cuckoo ".repeat(hour % 12 || 12).trim() :
     minute      === 30 ? "Cuckoo" :
     minute % 15 === 0 ? "Fizz Buzz" :
     minute % 3  === 0 ? "Fizz" :
-    minute % 5 === 0 ? "Buzz" :
+    minute % 5  === 0 ? "Buzz" :
     "tick"
+}
+
+module.exports = {
+  fizzBuzzCuckooClock: fizzBuzzCuckooClock,
+  fbcc: fbcc
 }
