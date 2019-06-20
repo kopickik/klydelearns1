@@ -4,8 +4,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   min-height: 100vh;
-  background: url('#{$images}/refused-stage-vic-theatre-chicago.jpg') no-repeat center center fixed,
-    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAGklEQVQYlWNgoADMhGKcknh1ki5JlH3k6QYAxV8GlEe+fEEAAAAASUVORK5CYII=) repeat;
+  grid-gap: .2fr;
+  background:
+    // url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAGklEQVQYlWNgoADMhGKcknh1ki5JlH3k6QYAxV8GlEe+fEEAAAAASUVORK5CYII=) repeat,
+    linear-gradient(to bottom, rgba(69,123,145,0.14), rgba(69,194,163,0.87)),
+    url('#{$images}/refused-stage-vic-theatre-chicago.jpg') no-repeat center center fixed;
   background-size: cover;
   color: rgba(43,14,14,.85);
   text-shadow: .1rem -.1rem 1em #21f,

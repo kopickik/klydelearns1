@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "esm": "^3.0.72",
+    "esm": "^3.2.25",
     "rxjs": "^6.3.3"
   },
   "devDependencies": {
