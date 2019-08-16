@@ -136,9 +136,9 @@ const listsWithVideos = () => {
             } else {
               return prev
             }
-          }).url,
+          }).url
         }
-      }),
+      })
     }
   })
 }
