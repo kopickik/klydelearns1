@@ -5,186 +5,186 @@
  * box art url simultaneously with zip().
  * Return an {id, title, time, url} object for each video.
  */
-const _ = require('lodash')
+const _ = require("lodash");
 
 const movieLists = [
   {
-    name: 'New Releases',
+    name: "New Releases",
     videos: [
       {
         id: 70111470,
-        title: 'Die Hard',
+        title: "Die Hard",
         boxarts: [
           {
             width: 150,
             height: 200,
-            url: 'http://cdn-0.nflximg.com/images/2891/DieHard150.jpg',
+            url: "http://cdn-0.nflximg.com/images/2891/DieHard150.jpg"
           },
           {
             width: 200,
             height: 200,
-            url: 'http://cdn-0.nflximg.com/images/2891/DieHard200.jpg',
-          },
+            url: "http://cdn-0.nflximg.com/images/2891/DieHard200.jpg"
+          }
         ],
-        url: 'http://api.netflix.com/catalog/titles/movies/70111470',
+        url: "http://api.netflix.com/catalog/titles/movies/70111470",
         rating: 4.0,
         interestingMoments: [
           {
-            type: 'End',
-            time: 213432,
+            type: "End",
+            time: 213432
           },
           {
-            type: 'Start',
-            time: 64534,
+            type: "Start",
+            time: 64534
           },
           {
-            type: 'Middle',
-            time: 323133,
-          },
-        ],
+            type: "Middle",
+            time: 323133
+          }
+        ]
       },
       {
         id: 654356453,
-        title: 'Bad Boys',
+        title: "Bad Boys",
         boxarts: [
           {
             width: 200,
             height: 200,
-            url: 'http://cdn-0.nflximg.com/images/2891/BadBoys200.jpg',
+            url: "http://cdn-0.nflximg.com/images/2891/BadBoys200.jpg"
           },
           {
             width: 140,
             height: 200,
-            url: 'http://cdn-0.nflximg.com/images/2891/BadBoys140.jpg',
-          },
+            url: "http://cdn-0.nflximg.com/images/2891/BadBoys140.jpg"
+          }
         ],
-        url: 'http://api.netflix.com/catalog/titles/movies/70111470',
+        url: "http://api.netflix.com/catalog/titles/movies/70111470",
         rating: 5.0,
         interestingMoments: [
           {
-            type: 'End',
-            time: 54654754,
+            type: "End",
+            time: 54654754
           },
           {
-            type: 'Start',
-            time: 43524243,
+            type: "Start",
+            time: 43524243
           },
           {
-            type: 'Middle',
-            time: 6575665,
-          },
-        ],
-      },
-    ],
+            type: "Middle",
+            time: 6575665
+          }
+        ]
+      }
+    ]
   },
   {
-    name: 'Instant Queue',
+    name: "Instant Queue",
     videos: [
       {
         id: 65432445,
-        title: 'The Chamber',
+        title: "The Chamber",
         boxarts: [
           {
             width: 130,
             height: 200,
-            url: 'http://cdn-0.nflximg.com/images/2891/TheChamber130.jpg',
+            url: "http://cdn-0.nflximg.com/images/2891/TheChamber130.jpg"
           },
           {
             width: 200,
             height: 200,
-            url: 'http://cdn-0.nflximg.com/images/2891/TheChamber200.jpg',
-          },
+            url: "http://cdn-0.nflximg.com/images/2891/TheChamber200.jpg"
+          }
         ],
-        url: 'http://api.netflix.com/catalog/titles/movies/70111470',
+        url: "http://api.netflix.com/catalog/titles/movies/70111470",
         rating: 4.0,
         interestingMoments: [
           {
-            type: 'End',
-            time: 132423,
+            type: "End",
+            time: 132423
           },
           {
-            type: 'Start',
-            time: 54637425,
+            type: "Start",
+            time: 54637425
           },
           {
-            type: 'Middle',
-            time: 3452343,
-          },
-        ],
+            type: "Middle",
+            time: 3452343
+          }
+        ]
       },
       {
         id: 675465,
-        title: 'Fracture',
+        title: "Fracture",
         boxarts: [
           {
             width: 200,
             height: 200,
-            url: 'http://cdn-0.nflximg.com/images/2891/Fracture200.jpg',
+            url: "http://cdn-0.nflximg.com/images/2891/Fracture200.jpg"
           },
           {
             width: 120,
             height: 200,
-            url: 'http://cdn-0.nflximg.com/images/2891/Fracture120.jpg',
+            url: "http://cdn-0.nflximg.com/images/2891/Fracture120.jpg"
           },
           {
             width: 300,
             height: 200,
-            url: 'http://cdn-0.nflximg.com/images/2891/Fracture300.jpg',
-          },
+            url: "http://cdn-0.nflximg.com/images/2891/Fracture300.jpg"
+          }
         ],
-        url: 'http://api.netflix.com/catalog/titles/movies/70111470',
+        url: "http://api.netflix.com/catalog/titles/movies/70111470",
         rating: 5.0,
         interestingMoments: [
           {
-            type: 'End',
-            time: 45632456,
+            type: "End",
+            time: 45632456
           },
           {
-            type: 'Start',
-            time: 234534,
+            type: "Start",
+            time: 234534
           },
           {
-            type: 'Middle',
-            time: 3453434,
-          },
-        ],
-      },
-    ],
-  },
-]
+            type: "Middle",
+            time: 3453434
+          }
+        ]
+      }
+    ]
+  }
+];
 
 const getMiddleInterestingMoment = movie =>
   _.reduce(movie.interestingMoments, (prev, curr) => {
-    if (prev.type === 'Middle') {
-      return prev
+    if (prev.type === "Middle") {
+      return prev;
     } else {
-      return curr
+      return curr;
     }
-  }).time
+  }).time;
 
 const getSmallestBoxartUrl = movie =>
   _.reduce(movie.boxarts, (prev, curr) => {
     if (prev.width * prev.height < curr.width * curr.height) {
-      return prev
+      return prev;
     } else {
-      return curr
+      return curr;
     }
-  }).url
+  }).url;
 
 const retrieveMiddleInterestingMomentAndSmallestBoxartUrl = array1 => {
-  let results = []
-  let vids = _.flatten(_.map(array1, l => l.videos))
-  let boxartUrls = _.map(vids, movie => getSmallestBoxartUrl(movie))
-  let middleMoments = _.map(vids, movie => getMiddleInterestingMoment(movie))
+  let results = [];
+  let vids = _.flatten(_.map(array1, l => l.videos));
+  let boxartUrls = _.map(vids, movie => getSmallestBoxartUrl(movie));
+  let middleMoments = _.map(vids, movie => getMiddleInterestingMoment(movie));
   _.map(vids, (vid, i) => {
     results.push({
       id: vid.id,
       title: vid.title,
       time: middleMoments[i],
-      url: boxartUrls[i],
-    })
-  })
-  return results
-}
+      url: boxartUrls[i]
+    });
+  });
+  return results;
+};
 
-console.log(retrieveMiddleInterestingMomentAndSmallestBoxartUrl(movieLists))
+console.log(retrieveMiddleInterestingMomentAndSmallestBoxartUrl(movieLists));
