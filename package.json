@@ -30,7 +30,6 @@
     "eslint-plugin-prettier": "3.0.0",
     "prettier": "1.14.3",
     "react": "^18.3.1",
-    "react-addons-test-utils": "^15.3.2",
     "react-dom": "^18.3.1"
   },
   "dependencies": {
@@ -42,6 +41,7 @@
     "got": "^14.4.1",
     "lodash": "^4.17.15",
     "mathjs": "^13.0.0",
+    "node-fetch": "^3.3.2",
     "p-map": "^2.1.0",
     "rxjs": "^6.2.2",
     "rxjs-compat": "^6.2.2",
@@ -50,6 +50,7 @@
     "split2": "^2.2.0",
     "through2": "^2.0.3",
     "through2-map": "^3.0.0",
+    "typescript": "^5.4.5",
     "url": "^0.11.0"
   }
 }
