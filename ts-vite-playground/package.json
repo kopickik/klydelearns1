@@ -1,0 +1,25 @@
+{
+  "name": "ts-vite-playground",
+  "version": "0.0.1",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@vitest/coverage-v8": "^2.0.5",
+    "jsdom": "^25.0.0",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.3",
+    "vitest": "^2.0.5"
+  }
+}
